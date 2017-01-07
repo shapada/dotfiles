@@ -93,3 +93,9 @@ parse_svn_rev(){
 shell () {
   ps | grep `echo $$` | awk '{ print $4 }'
 }
+
+create_alias () {
+  name="$1"
+  shift
+  printf "alias %s='%s'\n" "$name"  "$@" >> $HOME/dotfiles/shell/aliases
+}
