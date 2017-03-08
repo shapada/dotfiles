@@ -1,89 +1,49 @@
-alias cp='cp -iv'                           # Preferred 'cp' implementation
-alias mv='mv -iv'                           # Preferred 'mv' implementation
-alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
-alias l='ls -FGlAhp'                       # Preferred 'ls' implementation
-alias less='less -FSRXc'                    # Preferred 'less' implementation
-cd() { builtin cd "$@"; l; }               # Always list directory contents upon 'cd'
-alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
-alias ..='cd ../'                           # Go back 1 directory level
-alias ...='cd ../../'                       # Go back 2 directory levels
-alias ~="cd ~/."                             # ~:            Go Home
-alias c='clear'                             # c:            Clear terminal display
-alias which='type -all'                     # which:        Find executables
-alias path='echo -e ${PATH//:/\\n}'         # path:         Echo all executable Paths
-alias cic='set completion-ignore-case On'   # cic:          Make tab-completion case-insensitive
-mcd () { mkdir -p "$1" && cd "$1"; }        # mcd:          Makes new Dir and jumps inside
-alias aptget='sudo apt-get'
-
-#
-#   lr:  Full Recursive Directory Listing
-#   ------------------------------------------
+#!/usr/bin/env bash
+# ------------------------------------------------------------------------------------------------
+# Nursing App Development
+# ------------------------------------------------------------------------------------------------
+alias tdir='cd $HOME/VVV/www/mayo-nursing/htdocs/wp-content/themes/nursing-theme'
+alias pdir='cd $HOME/VVV/www/mayo-nursing/htdocs/wp-content/mu-plugins'
+alias vdir='cd $HOME/VVV'
+alias vssh='vdir && vagrant ssh'
+# ----------------------------------------------------------------------------------
+# Directory Helpers
+# ----------------------------------------------------------------------------------
+alias grep='grep --color=auto'
+alias qfind="find . -name "
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias mkdir='mkdir -pv'
+alias l='ls -FGlAhp'
+alias less='less -FSRXc'
+alias ..='cd ../'
+alias ...='cd ../..'
+alias ~='$HOME'
+alias c='clear'
+alias which='type -all'
+alias path='echo -e ${PATH//:/\\n}'
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
 
-#   mans:   Search manpage given in agument '1' for term given in argument '2' (case insensitive)
-#           displays paginated result with colored search terms and two lines surrounding each hit.            Example: mans mplayer codec
-#   --------------------------------------------------------------------
-mans () { man $1 | grep -iC2 --color=always $2 | less }
-
-#   showa: to remind yourself of an alias (given some part of it)
-#   ------------------------------------------------------------
-
-showa () { cat ~/.aliases | less } 
-alias aliased='$EDITOR $HOME/.aliases; source $HOME/.aliases';
-
-#   extract:  Extract most know archives with one command
-#   ---------------------------------------------------------
-    extract () {
-        if [ -f $1 ] ; then
-          case $1 in
-            *.tar.bz2)   tar xjf $1     ;;
-            *.tar.gz)    tar xzf $1     ;;
-            *.bz2)       bunzip2 $1     ;;
-            *.rar)       unrar e $1     ;;
-            *.gz)        gunzip $1      ;;
-            *.tar)       tar xf $1      ;;
-            *.tbz2)      tar xjf $1     ;;
-            *.tgz)       tar xzf $1     ;;
-            *.zip)       unzip $1       ;;
-            *.Z)         uncompress $1  ;;
-            *.7z)        7z x $1        ;;
-            *)     echo "'$1' cannot be extracted via extract()" ;;
-             esac
-         else
-             echo "'$1' is not a valid file"
-         fi
-    }
-# ---------------------------
-#   Nursing App Development
-# ---------------------------
-alias tdir='cd $HOME/vagrant-local/www/mayo-nursing/htdocs/wp-content/themes/nursing-theme'
-alias pdir='cd $HOME/vagrant-local/www/mayo-nursing/htdocs/wp-content/mu-plugins'
-alias vvdir='cd $HOME/vagrant-local'
-alias 
-
-# ---------------------------
-#   Searching
-# ---------------------------
-alias qfind="find . -name "                 # qfind:    Quickly search for file
-ff () { /usr/bin/find . -name "$@" ; }      # ff:       Find file under the current directory
-ffs () { /usr/bin/find . -name "$@"'*' ; }  # ffs:      Find file whose name starts with a given string
-ffe () { /usr/bin/find . -name '*'"$@" ; }  # ffe:      Find file whose name ends with a given string
-
-# Helpers
-alias grep='grep --color=auto' # Always highlight grep search term
-alias svim="sudo vim" # Run vim as super user
-alias zshrc='$EDITOR ~/.zshrc' # Quick access to the ~/.zshrc file
-
-# GIT ALIASES
+# ----------------------------------------------------------------------------------
+# Git Shortcuts
+# ----------------------------------------------------------------------------------
 alias g='git'
 alias ga='git add'
+alias gac='git commit -a -m'
 alias gb='git branch'
 alias gba='git branch -a'
 alias gc='git commit -v'
-alias gca='git commit -a -m'
-alias gl='git pull'
+alias gpl='git pull'
 alias gp='git push'
-alias grc='git rm --cached'
+alias gr='git rm'
+alias grc='git rm -r --cached'
 alias gst='git status'
+alias gsl='git status list'
 alias gs='git stash'
 alias gsa='git stash apply'
+
+
+# ----------------------------------------------------------------------------------
+#
+# ----------------------------------------------------------------------------------
+

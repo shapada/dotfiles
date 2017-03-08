@@ -1,4 +1,10 @@
 # Functions
+
+extract_table () {
+    sed -n -e '/CREATE TABLE.*`$1`/,/CREATE TABLE/p' $2 > $1.sql
+}
+
+
 add_auth_key () {
     ssh-copy-id $@
 }
