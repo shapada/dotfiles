@@ -24,26 +24,3 @@ alias which='type -all'
 alias path='echo -e ${PATH//:/\\n}'
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
 
-# ----------------------------------------------------------------------------------
-# Git Shortcuts
-# ----------------------------------------------------------------------------------
-alias g='git'
-alias ga='git add'
-alias gac='git commit -a -m'
-alias gb='git branch'
-alias gba='git branch -a'
-alias gc='git commit -v'
-alias gpl='git pull'
-alias gp='git push'
-alias gr='git rm'
-alias grc='git rm -r --cached'
-alias gst='git status'
-alias gsl='git status list'
-alias gs='git stash'
-alias gsa='git stash apply'
-
-
-# ----------------------------------------------------------------------------------
-#
-# ----------------------------------------------------------------------------------
-
