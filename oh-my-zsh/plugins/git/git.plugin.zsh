@@ -71,12 +71,12 @@ alias gcf='git config --list'
 alias gcl='git clone --recursive'
 alias gclean='git clean -fd'
 alias gpristine='git reset --hard && git clean -dfx'
-alias gcm='git checkout master'
-alias gcd='git checkout develop'
+alias gcom='git checkout master'
+alias gcos='git checkout staging'
 alias gcmsg='git commit -m'
 alias gco='git checkout'
+alias gcof='git checkout feature/'
 alias gcount='git shortlog -sn'
-compdef _git gcount
 alias gcp='git cherry-pick'
 alias gcpa='git cherry-pick --abort'
 alias gcpc='git cherry-pick --continue'
@@ -89,11 +89,11 @@ alias gdt='git diff-tree --no-commit-id --name-only -r'
 alias gdw='git diff --word-diff'
 
 gdv() { git diff -w "$@" | view - }
-compdef _git gdv=git-diff
 
 alias gf='git fetch'
 alias gfa='git fetch --all --prune'
-alias gfo='git fetch origin'
+alias gfm='git fetch origin master'
+alias gfmm='git fetch origin master && git merge origin master --no-ff'
 
 function gfg() { git ls-files | grep $@ }
 compdef _grep gfg
@@ -180,9 +180,8 @@ alias gloga='git log --oneline --decorate --graph --all'
 alias glp="_git_log_prettily"
 compdef _git glp=git-log
 
-alias gm='git merge'
-alias gmnf='git merge --no-ff'
-alias gmom='git merge origin/master'
+alias gm='git merge --no-ff'
+alias gmff='git merge'
 alias gmt='git mergetool --no-prompt'
 alias gmtvim='git mergetool --no-prompt --tool=vimdiff'
 alias gmum='git merge upstream/master'
