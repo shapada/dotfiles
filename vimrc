@@ -6,7 +6,7 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'Tail-Bundle'
-Plugin 'vim-fugitive'
+Plugin 'scrooloose/nerdcommenter'
 
 call vundle#end()            
 filetype plugin indent on    
