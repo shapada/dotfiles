@@ -4,7 +4,7 @@
 # ------------------------------------------------------------------------------------------------
 alias tdir='cd $HOME/vagrant-local/www/mayo-nursing/htdocs/wp-content/themes/nursing-theme'
 alias pdir='cd $HOME/vagrant-local/www/mayo-nursing/htdocs/wp-content/mu-plugins'
-alias vdir='cd $HOME/VVV'
+alias vdir='cd $HOME/vagrant-local'
 alias vssh='vdir && vagrant ssh'
 # ----------------------------------------------------------------------------------
 # Directory Helpers
@@ -23,7 +23,12 @@ alias c='clear'
 alias which='type -all'
 alias path='echo -e ${PATH//:/\\n}'
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
-alias ytdlmp3='youtube-dl --extract-audio --audio-format mp3'
-alias mountpriv="sudo mount -t nfs spi:/srv/nfs/priv /Users/m030006/nfs/priv"
-alias umountpriv="sudo umount -t nfs spi:/srv/nfs/priv /Users/m030006/nfs/priv"
+alias ydlmp3='youtube-dl --extract-audio --audio-format mp3'
 alias rmr="rm -r"
+alias ytdl="youtube-dl"
+alias ytdlmp3='youtube-dl --download-archive downloaded.txt --no-post-overwrites -ciwx --audio-format mp3 -o "%(title)s.%(ext)s"'
+alias lsalias="cat /Users/m030006/dotfiles/shell/aliases | less"
+alias rmalias="sed -i '' -e '$ d' $HOME/dotfiles/shell/aliases"
+alias sman="apropos"
+alias l="ls -la"
+alias clhist="echo \"\" > ~/.zsh_history & exec $SHELL -l"

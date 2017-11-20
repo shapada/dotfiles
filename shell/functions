@@ -1,23 +1,12 @@
-extract_table () {
-    sed -n -e '/CREATE TABLE.*`$1`/,/CREATE TABLE/p' $2 > $1.sql
-}
-
-add_auth_key () {
-    ssh-copy-id $@
-}
-
 function cd() {
     if [ -d "$@" ]; then
         echo -n "Stack: "
         pushd "$@"
-        ls -la
-    else
-        builtin cd "$@"
     fi
 }
 
 function popd() {
-    builtin popd "$@" && ls -la
+    builtin popd "$@"
 }
 
 extract () {
@@ -66,49 +55,11 @@ psgrep() {
     fi
 }
 
-if [ -z "\${which tree}" ]; then
-  tree () {
-      find $@ -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
-  }
-fi
-
-# make a dir and cd into it
 mcd () {
     mkdir -p "$@" && cd "$@"
 }
 
-ghget () {
-    # input: rails/rails
-    USER=$(echo $@ | tr "/" " " | awk '{print $1}')
-    REPO=$(echo $@ | tr "/" " " | awk '{print $2}')
-    mcd "$HOME/src/github.com/$USER" && \
-    hub clone $@ && \
-    cd $REPO
-}
-
-exip () {
-    # gather external ip address
-    echo -n "Current External IP: "
-    curl -s -m 5 http://myip.dk | grep "ha4" | sed -e 's/.*ha4">//g' -e 's/<\/span>.*//g'
-}
-
-ips () {
-    # determine local IP address
-    ifconfig | grep "inet " | awk '{ print $2 }'
-}
-
-parse_git_branch(){
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1] /';
-}
-
-parse_svn_rev(){
-    svn info 2> /dev/null | grep "Revision" | sed 's/Revision: \(.*\)/[r\1] /';
-}
-
-shell () {
-  ps | grep `echo $$` | awk '{ print $4 }'
-}
-
-mkals() {
-    echo "alias $1=\"${@:2}\"" >> ~/dotfiles/shell/aliases
+mkalias() {
+    ALIASES=$HOME/dotfiles/shell/aliases
+    echo "alias $1=\"${@:2}\"" >> $ALIASES && source $ALIASES 
 }
