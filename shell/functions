@@ -28,7 +28,7 @@ dgrep() {
     # A recursive, case-insensitive grep that excludes binary files
     grep -iR "$@" * | grep -v "Binary"
 }
-
+ 
 dfgrep() {
     # A recursive, case-insensitive grep that excludes binary files
     # and returns only unique filenames
@@ -51,4 +51,12 @@ mcd () {
 mkalias() {
     ALIASES=$HOME/dotfiles/shell/aliases
     echo "alias $1=\"${@:2}\"" >> $ALIASES && source $ALIASES 
+}
+
+cp_sshkey() { 
+    cat $0 | ssh $1 'cat >> .ssh/authorized_keys'
+}
+
+gman() {
+	man $1 | grep ${@:2}
 }
