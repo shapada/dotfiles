@@ -45,3 +45,6 @@ alias wgetsite="wget -erobots=off --no-parent --wait=3 --limit-rate=20K -r -p -U
 alias trisr="trizen -Ss"
 alias trsr="trizen -Ss"
 alias trin="trizen -S"
+alias edit="code"
+alias sedit="sudo code"
+alias i3conf="code /home/sd/.config/i3/config"

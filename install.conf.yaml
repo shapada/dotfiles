@@ -10,5 +10,6 @@
     ~/.functions: shell/functions
     ~/.oh-my-zsh: oh-my-zsh         
     ~/.vim_runtime: vim_runtime
+    ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux
