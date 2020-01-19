@@ -49,7 +49,7 @@ mcd () {
 }
 
 mkalias() {
-    ALIASES=$HOME/dotfiles/shell/aliases
+    ALIASES=$PWD/aliases
     echo "alias $1=\"${@:2}\"" >> $ALIASES && source $ALIASES 
 }
 
