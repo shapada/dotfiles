@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/scripts:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/local/development/linux/scripts:$HOME/local/development/linux/scripts/rofi:$HOME/local/development/linux/scripts/dmenu/$HOME/local/development/scripts/fzf:$PATH
 
 # Path to your oh-my-zsh installation.
 export SCRIPTS=$HOME/dotfiles/scripts
@@ -61,6 +61,8 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
+export TERMINAL=urxvt
+
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
@@ -87,3 +89,10 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 source "$HOME/.aliases"
 source "$HOME/.functions"
+
+# HSTR configuration - add this to ~/.zshrc
+alias hh=hstr                    # hh to be alias for hstr
+setopt histignorespace           # skip cmds w/ leading space from history
+export HSTR_CONFIG=hicolor       # get more colors
+bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
+

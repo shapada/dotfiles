@@ -45,3 +45,6 @@ set -g status-right-length 50
 set -g status-left-length 20
 setw -g window-status-current-format ' #I#[fg=colour249]:#[fg=colour255]#W#[fg=colour249]#F '
 setw -g window-status-format ' #I#[fg=colour237]:#[fg=colour250]#W#[fg=colour244]#F '
+
+bind-key -n 'C-\' new-window -n bookmarks -c $HOME \; \
+    send-keys 'fzf-surfraw && tmux kill-window' 'Enter'

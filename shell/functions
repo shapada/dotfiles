@@ -60,3 +60,5 @@ cp_sshkey() {
 gman() {
 	man $1 | grep ${@:2}
 }
+
+fzf-surfraw() { surfraw "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)" ;}
