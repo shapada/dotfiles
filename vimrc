@@ -33,8 +33,22 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'Tail-Bundle'
+Plugin 'hesselbom/vim-hsftp'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'valloric/youcompleteme'
+Plugin 'vim-airline/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'yggdroot/indentline'
+Plugin 'mbbill/undotree'
+Plugin 'benmills/vimux'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'benmills/vimux'
 Plugin 'morhetz/gruvbox'
 
 call vundle#end()            
