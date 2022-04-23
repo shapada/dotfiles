@@ -1,0 +1,3648 @@
+Description     : A free library for decoding ATSC A/52 streams a52dec
+   : x86_64 CST Architecture
+2022 05:12:35 AMaalib -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMaccounts-qml-module -05-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMaccountsservice -13-02
+   : x86_64 CST Architecture
+2022 05:54:46 AMacl -30-01
+   : x86_64 CST Architecture
+2022 10:27:24 AMadapta-gtk-theme -13-02
+   : any CST Architecture
+2022 05:34:34 AMadobe-source-code-pro-fonts -05-01
+   : any CST Architecture
+2021 05:36:17 AMadobe-source-han-sans-cn-fonts -21-12
+   : any CST Architecture
+2021 05:36:24 AMadobe-source-han-sans-jp-fonts -21-12
+   : any CST Architecture
+2021 05:36:23 AMadobe-source-han-sans-kr-fonts -21-12
+   : any CST Architecture
+2021 05:36:23 AMadobe-source-sans-fonts -21-12
+   : any CST Architecture
+2022 05:26:21 AMadwaita-icon-theme -05-01
+   : any CST Architecture
+2021 05:36:17 AMafpfs-ng -21-12
+   : x86_64 CDT Architecture
+2022 05:37:38 PMaic94xx-firmware -30-03
+   : any CST Architecture
+2021 05:36:12 AMalacritty -21-12
+   : x86_64 CST Architecture
+2022 10:55:35 AMalsa-card-profiles -26-01
+   : x86_64 CST Architecture
+2022 10:27:24 AMalsa-firmware -13-02
+   : any CST Architecture
+2022 05:11:41 AMalsa-lib -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMalsa-plugins -21-12
+   : x86_64 CST Architecture
+2022 04:35:13 PMalsa-topology-conf -06-01
+   : any CST Architecture
+2021 05:36:07 AMalsa-ucm-conf -21-12
+   : any CST Architecture
+2021 05:36:07 AMalsa-utils -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMamdvlk -21-12
+   : x86_64 CST Architecture
+2022 05:54:46 AMantlr4-runtime -30-01
+   : x86_64 CST Architecture
+2022 07:01:14 AMaom -22-02
+   : x86_64 CST Architecture
+2022 05:12:32 AMappstream -05-01
+   : x86_64 CST Architecture
+2022 02:50:32 AMappstream-glib -09-01
+   : x86_64 CST Architecture
+2022 05:03:52 PMarandr -05-01
+   : any CST Architecture
+2021 05:36:18 AMarc-gtk-theme -21-12
+   : any CST Architecture
+2022 05:08:47 AMarc-icon-theme -05-01
+   : any CST Architecture
+2022 05:35:35 AMarch-install-scripts -05-01
+   : any CST Architecture
+2021 05:36:08 AMarchlinux-appstream-data -21-12
+   : any CST Architecture
+2022 10:27:24 AMarchlinux-keyring -13-02
+   : any CST Architecture
+2022 10:16:56 AMarcolinux-alacritty-git -27-01
+   : any CST Architecture
+2022 10:27:24 AMarcolinux-betterlockscreen-git -13-02
+   : any CST Architecture
+2022 05:13:37 AMarcolinux-candy-beauty-git -05-01
+   : any CST Architecture
+2022 05:35:41 AMarcolinux-common-git -05-01
+   : any CST Architecture
+2022 05:39:40 AMarcolinux-config-all-desktops-git -05-01
+   : any CST Architecture
+2022 05:13:30 AMarcolinux-conky-collection-git -05-01
+   : any CST Architecture
+2022 10:27:30 AMarcolinux-dconf-all-desktops-git -13-02
+   : any CST Architecture
+2022 05:13:32 AMarcolinux-grub-theme-vimix-git -05-01
+   : any CST Architecture
+2022 05:08:48 AMarcolinux-gtk3-sardi-arc-git -05-01
+   : any CST Architecture
+2022 05:13:33 AMarcolinux-hblock-git -05-01
+   : any CST Architecture
+2022 04:52:56 PMarcolinux-i3wm-git -05-01
+   : any CST Architecture
+2022 10:27:30 AMarcolinux-keyring -13-02
+   : any CST Architecture
+2021 05:36:22 AMarcolinux-local-xfce4-git -21-12
+   : any CST Architecture
+2022 05:13:39 AMarcolinux-logout-git -05-01
+   : any CST Architecture
+2022 05:54:46 AMarcolinux-logout-themes-git -30-01
+   : any CST Architecture
+2022 05:13:41 AMarcolinux-meta-logout -05-01
+   : any CST Architecture
+2022 05:13:41 AMarcolinux-meta-sddm-themes -05-01
+   : any CST Architecture
+2022 05:15:33 AMarcolinux-meta-utilities -05-01
+   : any CST Architecture
+2022 05:20:31 AMarcolinux-mint-y-icons-git -05-01
+   : any CST Architecture
+2022 05:20:33 AMarcolinux-mirrorlist-git -05-01
+   : any CST Architecture
+2021 05:36:22 AMarcolinux-neofetch-git -21-12
+   : any CST Architecture
+2021 05:36:22 AMarcolinux-nitrogen-git -21-12
+   : any CST Architecture
+2022 05:13:42 AMarcolinux-paleofetch-git -05-01
+   : any CST Architecture
+2022 04:54:40 PMarcolinux-paru-git -05-01
+   : any CST Architecture
+2021 05:36:22 AMarcolinux-pipemenus-git -21-12
+   : any CST Architecture
+2022 05:39:40 AMarcolinux-plank-themes-git -05-01
+   : any CST Architecture
+2022 05:20:35 AMarcolinux-polybar-git -05-01
+   : any CST Architecture
+2022 05:54:46 AMarcolinux-rofi-git -30-01
+   : any CST Architecture
+2022 05:13:45 AMarcolinux-rofi-themes-git -05-01
+   : any CST Architecture
+2022 05:13:46 AMarcolinux-root-git -05-01
+   : any CST Architecture
+2022 10:27:30 AMarcolinux-sddm-backgrounds-git -13-02
+   : any CST Architecture
+2022 05:22:47 AMarcolinux-sddm-chili-git -05-01
+   : any CST Architecture
+2022 05:12:44 AMarcolinux-sddm-fralonra-git -05-01
+   : any CST Architecture
+2022 05:12:46 AMarcolinux-sddm-futuristic-git -05-01
+   : any CST Architecture
+2022 05:12:51 AMarcolinux-sddm-materia-git -05-01
+   : any CST Architecture
+2022 05:13:01 AMarcolinux-sddm-redrock-git -05-01
+   : any CST Architecture
+2022 05:13:13 AMarcolinux-sddm-simplicity-git -05-01
+   : any CST Architecture
+2021 05:36:24 AMarcolinux-sddm-slice-git -21-12
+   : any CST Architecture
+2022 05:13:15 AMarcolinux-sddm-sugar-candy-git -05-01
+   : any CST Architecture
+2022 05:13:22 AMarcolinux-sddm-urbanlifestyle-git -05-01
+   : any CST Architecture
+2022 05:13:25 AMarcolinux-systemd-services-git -05-01
+   : any CST Architecture
+2021 05:36:22 AMarcolinux-tweak-tool-git -21-12
+   : x86_64 CST Architecture
+2022 05:51:17 AMarcolinux-volumeicon-git -10-01
+   : any CST Architecture
+2022 05:15:14 AMarcolinux-wallpapers-git -05-01
+   : any CST Architecture
+2022 05:08:48 AMarcolinux-xfce-git -05-01
+   : any CST Architecture
+2022 10:27:30 AMarcolinux-zsh-git -13-02
+   : any CST Architecture
+2022 10:27:30 AMarcolinuxd-system-config-git -13-02
+   : x86_64 CST Architecture
+2022 10:27:30 AMarcolinuxd-welcome-app-git -13-02
+   : any CST Architecture
+2022 10:55:36 AMargon2 -26-01
+   : x86_64 CST Architecture
+2022 05:08:48 AMasciidoc -05-01
+   : any CST Architecture
+2022 10:55:36 AMasciinema -26-01
+   : any CST Architecture
+2021 05:36:18 AMat-spi2-atk -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMat-spi2-core -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMatk -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMatkmm -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMattica -21-12
+   : x86_64 CST Architecture
+2022 06:59:17 PMattr -14-02
+   : x86_64 CST Architecture
+2022 10:27:24 AMaudacious -13-02
+   : x86_64 CST Architecture
+2022 05:27:56 AMaudacious-plugins -05-01
+   : x86_64 CST Architecture
+2022 05:27:56 AMaudacity -05-01
+   : x86_64 CST Architecture
+2022 10:55:36 AMaudiofile -26-01
+   : x86_64 CST Architecture
+2022 05:28:33 AMaudit -05-01
+   : x86_64 CST Architecture
+2022 10:27:27 AMautoconf -13-02
+   : any CST Architecture
+2021 05:36:17 AMautoconf-archive -21-12
+   : any CST Architecture
+2022 10:27:30 AMautomake -13-02
+   : any CST Architecture
+2021 05:36:17 AMautorandr -21-12
+   : any CST Architecture
+2022 03:10:40 PMautotiling -05-03
+   : x86_64 CST Architecture
+2022 05:15:17 AMavahi -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMawesome -21-12
+   : x86_64 CDT Architecture
+2022 04:10:34 PMawesome-terminal-fonts -08-04
+   : any CST Architecture
+2022 05:26:23 AMbabl -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMbase -05-01
+   : any CST Architecture
+2021 05:36:08 AMbash -21-12
+   : x86_64 CST Architecture
+2022 05:51:17 AMbash-completion -10-01
+   : any CST Architecture
+2021 05:36:18 AMbashtop -21-12
+   : any CST Architecture
+2022 05:20:30 AMbat -05-01
+   : x86_64 CST Architecture
+2022 10:55:36 AMbc -26-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMbcg729 -21-12
+   : x86_64 CST Architecture
+2022 05:39:32 AMbetterlockscreen-git -05-01
+   : any CST Architecture
+2022 05:13:37 AMbibata-cursor-theme-bin -05-01
+   : any CST Architecture
+2021 05:36:18 AMbind -21-12
+   : x86_64 CST Architecture
+2022 10:55:37 AMbinutils -26-01
+   : x86_64 CST Architecture
+2022 06:59:17 PMbison -14-02
+   : x86_64 CST Architecture
+2021 05:36:17 AMblas -21-12
+   : x86_64 CST Architecture
+2022 05:15:13 AMblueman -05-01
+   : x86_64 CDT Architecture
+2022 07:16:31 PMbluez -14-04
+   : x86_64 CST Architecture
+2022 02:50:32 AMbluez-libs -09-01
+   : x86_64 CST Architecture
+2022 02:50:32 AMbluez-utils -09-01
+   : x86_64 CST Architecture
+2022 02:50:32 AMboost-libs -09-01
+   : x86_64 CST Architecture
+2022 05:11:37 AMbotan -05-01
+   : x86_64 CST Architecture
+2022 10:55:37 AMbox2d -26-01
+   : x86_64 CST Architecture
+2022 05:26:18 AMbreeze -05-01
+   : x86_64 CST Architecture
+2022 10:27:31 AMbreeze-icons -13-02
+   : any CST Architecture
+2022 06:59:18 PMbridge-utils -14-02
+   : x86_64 CST Architecture
+2022 12:25:37 PMbroadcom-wl-dkms -10-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMbrotli -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMbtrfs-progs -21-12
+   : x86_64 CST Architecture
+2022 10:27:31 AMbubblewrap -13-02
+   : x86_64 CST Architecture
+2022 05:20:15 AMbuku -05-01
+   : any CDT Architecture
+2022 08:39:00 PMbzip2 -07-04
+   : x86_64 CST Architecture
+2021 05:36:07 AMc-ares -21-12
+   : x86_64 CST Architecture
+2022 05:20:30 AMca-certificates -05-01
+   : any CST Architecture
+2021 05:36:07 AMca-certificates-mozilla -21-12
+   : x86_64 CST Architecture
+2022 10:27:27 AMca-certificates-utils -13-02
+   : any CST Architecture
+2021 05:36:07 AMcaffeine -21-12
+   : any CST Architecture
+2022 05:39:15 AMcairo -05-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMcairomm -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMcantarell-fonts -21-12
+   : any CST Architecture
+2021 05:36:17 AMcatfish-devel -21-12
+   : any CST Architecture
+2022 05:36:19 PMcblas -08-01
+   : x86_64 CST Architecture
+2022 05:15:13 AMcdparanoia -05-01
+   : x86_64 CST Architecture
+2022 05:12:34 AMcelt -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMceph-libs -05-01
+   : x86_64 CST Architecture
+2022 05:11:37 AMchaotic-keyring -05-01
+   : any CST Architecture
+2022 10:27:31 AMchaotic-mirrorlist -13-02
+   : any CST Architecture
+2022 05:15:13 AMcheat -05-01
+   : x86_64 CST Architecture
+2022 02:43:37 PMchromaprint -14-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMchromium -05-01
+   : x86_64 CST Architecture
+2022 10:27:32 AMcht.sh-git -13-02
+   : any CST Architecture
+2022 06:12:04 AMcifs-utils -16-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMclementine -21-12
+   : x86_64 CST Architecture
+2022 04:47:05 PMclerk-git -12-01
+   : any CDT Architecture
+2022 03:57:11 PMclipmenu -20-03
+   : any CST Architecture
+2022 08:06:31 PMclipnotify -27-01
+   : x86_64 CST Architecture
+2022 08:06:31 PMclonezilla -27-01
+   : any CST Architecture
+2021 05:36:10 AMclucene -21-12
+   : x86_64 CST Architecture
+2022 05:26:17 AMcmake -05-01
+   : x86_64 CST Architecture
+2022 10:55:37 AMcomposer -26-01
+   : any CST Architecture
+2022 06:43:38 AMconfuse -11-03
+   : x86_64 CST Architecture
+2022 05:15:22 AMcontainerd -05-01
+   : x86_64 CST Architecture
+2022 05:17:48 AMconvertlit -14-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMcoreutils -13-02
+   : x86_64 CST Architecture
+2021 05:36:07 AMcpu-x -21-12
+   : x86_64 CST Architecture
+2022 05:20:30 AMcracklib -05-01
+   : x86_64 CST Architecture
+2021 05:36:23 AMcrda -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMcrypto++ -21-12
+   : x86_64 CST Architecture
+2022 04:47:04 PMcryptsetup -12-01
+   : x86_64 CST Architecture
+2022 10:27:27 AMctags -13-02
+   : x86_64 CST Architecture
+2022 05:38:20 AMcups -05-01
+   : x86_64 CST Architecture
+2022 05:54:46 AMcups-filters -30-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMcups-pdf -26-01
+   : x86_64 CST Architecture
+2022 05:10:04 AMcurl -05-01
+   : x86_64 CST Architecture
+2022 10:27:27 AMdav1d -13-02
+   : x86_64 CST Architecture
+2022 05:12:32 AMdb -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMdbus -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMdbus-glib -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMdbus-python -21-12
+   : x86_64 CST Architecture
+2022 05:09:43 AMdconf -05-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMddcutil -21-12
+   : x86_64 CST Architecture
+2022 05:54:46 AMddrescue -30-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMdesktop-file-utils -26-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMdevice-mapper -21-12
+   : x86_64 CST Architecture
+2022 10:27:27 AMdex -13-02
+   : any CST Architecture
+2021 05:36:18 AMdhclient -21-12
+   : x86_64 CST Architecture
+2022 05:08:48 AMdialog -05-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMdiffutils -26-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMding-libs -21-12
+   : x86_64 CST Architecture
+2022 05:17:48 AMdisper -14-01
+   : any CST Architecture
+2022 12:33:18 AMdisplaylink -30-01
+   : x86_64 CST Architecture
+2022 09:10:45 PMdkms -29-01
+   : any CST Architecture
+2021 05:36:09 AMdmenu -21-12
+   : x86_64 CST Architecture
+2022 05:48:30 AMdmidecode -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMdmraid -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMdnsmasq -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMdnssec-anchors -21-12
+   : any CST Architecture
+2021 05:36:08 AMdocbook-xml -21-12
+   : any CST Architecture
+2022 05:03:52 PMdocbook-xsl -05-01
+   : any CST Architecture
+2022 05:03:52 PMdocker -05-01
+   : x86_64 CST Architecture
+2022 12:25:38 PMdocker-compose -10-01
+   : x86_64 CST Architecture
+2022 05:17:48 AMdocker-tray -14-01
+   : x86_64 CST Architecture
+2022 12:26:13 PMdosfstools -27-02
+   : x86_64 CST Architecture
+2022 10:27:31 AMdotbot -13-02
+   : any CST Architecture
+2022 11:29:38 PMdouble-conversion -25-02
+   : x86_64 CST Architecture
+2022 04:47:05 PMdoxygen -12-01
+   : x86_64 CST Architecture
+2022 07:47:27 PMdrbl -27-01
+   : any CST Architecture
+2021 05:36:09 AMduf-bin -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMdunst -21-12
+   : x86_64 CDT Architecture
+2022 03:06:29 AMe2fsprogs -04-04
+   : x86_64 CST Architecture
+2022 10:27:27 AMebook-tools -13-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMecryptfs-utils -13-02
+   : x86_64 CST Architecture
+2021 05:36:09 AMedid-decode-git -21-12
+   : x86_64 CST Architecture
+2022 10:27:32 AMeditorconfig-core-c -13-02
+   : x86_64 CST Architecture
+2022 05:38:18 AMedk2-shell -05-01
+   : any CST Architecture
+2021 05:36:10 AMefibootmgr -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMefivar -21-12
+   : x86_64 CST Architecture
+2022 10:55:38 AMegl-wayland -26-01
+   : x86_64 CST Architecture
+2022 12:39:23 AMeglexternalplatform -30-01
+   : any CST Architecture
+2022 12:39:23 AMelectron14 -30-01
+   : x86_64 CST Architecture
+2022 08:47:44 AMelfutils -28-01
+   : x86_64 CST Architecture
+2022 06:59:18 PMenchant -14-02
+   : x86_64 CST Architecture
+2022 05:20:15 AMenvycontrol -05-01
+   : any CST Architecture
+2022 12:33:18 AMetcher-bin -30-01
+   : x86_64 CST Architecture
+2022 05:39:04 AMethtool -05-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMevdi -26-01
+   : x86_64 CST Architecture
+2022 09:09:46 PMexfatprogs -29-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMexiv2 -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMexpac -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMexpat -21-12
+   : x86_64 CST Architecture
+2022 10:27:25 AMf2fs-tools -13-02
+   : x86_64 CST Architecture
+2021 05:36:10 AMfaac -21-12
+   : x86_64 CST Architecture
+2022 10:55:38 AMfaad2 -26-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMfaba-icon-theme-git -05-01
+   : any CST Architecture
+2022 05:35:44 AMfaba-mono-icons-git -05-01
+   : any CST Architecture
+2022 05:35:46 AMfakeroot -05-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMfasd -26-01
+   : any CST Architecture
+2022 04:34:19 PMfatresize -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMfaudio -21-12
+   : x86_64 CST Architecture
+2022 10:27:32 AMfcft -13-02
+   : x86_64 CDT Architecture
+2022 09:57:16 AMfd -13-03
+   : x86_64 CST Architecture
+2022 06:50:45 AMfeh -30-01
+   : x86_64 CST Architecture
+2022 10:27:33 AMffmpeg -13-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMffmpegthumbnailer -05-01
+   : x86_64 CST Architecture
+2022 01:43:13 AMfftw -07-01
+   : x86_64 CST Architecture
+2022 10:27:33 AMfile -13-02
+   : x86_64 CDT Architecture
+2022 03:18:21 AMfilesystem -04-04
+   : x86_64 CST Architecture
+2021 05:36:07 AMfilezilla -21-12
+   : x86_64 CST Architecture
+2022 10:27:33 AMfindutils -13-02
+   : x86_64 CST Architecture
+2022 10:27:27 AMfirefox -13-02
+   : x86_64 CST Architecture
+2022 10:27:33 AMfish -13-02
+   : x86_64 CST Architecture
+2022 10:54:15 AMflac -13-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMflex -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMfluidsynth -21-12
+   : x86_64 CST Architecture
+2022 10:55:38 AMfmt -26-01
+   : x86_64 CST Architecture
+2022 04:47:06 PMfontconfig -12-01
+   : x86_64 CST Architecture
+2022 10:27:25 AMfoomatic-db -13-02
+   : any CST Architecture
+2022 05:10:11 AMfoomatic-db-engine -05-01
+   : x86_64 CST Architecture
+2022 05:10:09 AMfoomatic-db-gutenprint-ppds -05-01
+   : x86_64 CST Architecture
+2022 05:11:04 AMfoomatic-db-nonfree -05-01
+   : any CST Architecture
+2022 05:10:37 AMfoomatic-db-nonfree-ppds -05-01
+   : any CST Architecture
+2022 05:10:38 AMfoomatic-db-ppds -05-01
+   : any CST Architecture
+2022 05:10:37 AMfoot -05-01
+   : x86_64 CDT Architecture
+2022 09:57:16 AMfoot-terminfo -13-03
+   : x86_64 CDT Architecture
+2022 09:57:16 AMframeworkintegration -13-03
+   : x86_64 CST Architecture
+2022 06:59:18 PMfreetype2 -14-02
+   : x86_64 CST Architecture
+2021 05:36:13 AMfrei0r-plugins -21-12
+   : x86_64 CST Architecture
+2022 10:29:35 AMfribidi -13-02
+   : x86_64 CST Architecture
+2021 05:36:16 AMfsarchiver -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMftgl -21-12
+   : x86_64 CST Architecture
+2022 05:28:13 AMfuse-common -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMfuse2 -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMfuse3 -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMfzf -21-12
+   : x86_64 CST Architecture
+2022 01:15:55 AMgavl -06-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMgawk -13-02
+   : x86_64 CDT Architecture
+2022 03:18:21 AMgc -04-04
+   : x86_64 CST Architecture
+2021 05:36:09 AMgcab -21-12
+   : x86_64 CST Architecture
+2022 05:03:52 PMgcc -05-01
+   : x86_64 CST Architecture
+2022 06:59:19 PMgcc-libs -14-02
+   : x86_64 CST Architecture
+2022 06:59:17 PMgconf -14-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMgcr -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMgd -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMgdb -05-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMgdb-common -26-01
+   : x86_64 CST Architecture
+2022 10:55:38 AMgdbm -26-01
+   : x86_64 CST Architecture
+2022 10:27:28 AMgdk-pixbuf2 -13-02
+   : x86_64 CST Architecture
+2021 05:36:16 AMgegl -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMgenpass-git -05-01
+   : x86_64 CST Architecture
+2022 11:44:01 AMgeoclue -28-02
+   : x86_64 CST Architecture
+2022 05:04:55 AMgeocode-glib -09-03
+   : x86_64 CST Architecture
+2022 05:04:55 AMgettext -09-03
+   : x86_64 CST Architecture
+2021 05:36:08 AMghc-libs -21-12
+   : x86_64 CST Architecture
+2022 02:42:57 PMghostscript -14-01
+   : x86_64 CST Architecture
+2022 10:27:33 AMgiflib -13-02
+   : x86_64 CST Architecture
+2022 05:11:50 AMgimp -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMgit -05-01
+   : x86_64 CST Architecture
+2022 05:54:46 AMgjs -30-01
+   : x86_64 CST Architecture
+2022 10:27:33 AMgksu -13-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMglances -21-12
+   : any CST Architecture
+2022 05:20:31 AMglew -05-01
+   : x86_64 CST Architecture
+2022 05:28:13 AMglfw-wayland -05-01
+   : x86_64 CST Architecture
+2022 05:20:30 AMglib-networking -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMglib2 -21-12
+   : x86_64 CST Architecture
+2022 10:27:24 AMglib2-docs -13-02
+   : x86_64 CST Architecture
+2022 10:27:34 AMglibc -13-02
+   : x86_64 CST Architecture
+2022 06:59:15 PMglibmm -14-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMglm -21-12
+   : any CST Architecture
+2022 05:28:13 AMglslang -05-01
+   : x86_64 CST Architecture
+2022 05:29:58 AMglu -05-01
+   : x86_64 CST Architecture
+2022 05:51:19 AMgmp -10-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMgnome-keyring -21-12
+   : x86_64 CST Architecture
+2022 07:12:41 AMgnome-sound-recorder -22-02
+   : any CST Architecture
+2022 01:12:35 PMgnome-themes-extra -09-01
+   : x86_64 CST Architecture
+2022 05:35:27 AMgnu-netcat -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMgnupg -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMgnutls -21-12
+   : x86_64 CST Architecture
+2022 10:55:36 AMgo -26-01
+   : x86_64 CST Architecture
+2022 10:27:35 AMgobject-introspection -13-02
+   : x86_64 CST Architecture
+2022 05:17:48 AMgobject-introspection-runtime -14-01
+   : x86_64 CST Architecture
+2022 05:17:48 AMgotop-bin -14-01
+   : x86_64 CST Architecture
+2022 05:20:30 AMgpart -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMgparted -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMgperf -21-12
+   : x86_64 CDT Architecture
+2022 05:37:38 PMgpgme -30-03
+   : x86_64 CST Architecture
+2022 10:27:31 AMgpm -13-02
+   : x86_64 CST Architecture
+2021 05:36:09 AMgptfdisk -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMgrammalecte -21-12
+   : any CST Architecture
+2022 05:38:18 AMgraphene -05-01
+   : x86_64 CST Architecture
+2022 05:12:34 AMgraphicsmagick -05-01
+   : x86_64 CST Architecture
+2022 05:38:03 AMgraphite -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMgraphite-gtk-theme-git -21-12
+   : any CST Architecture
+2022 10:27:36 AMgraphviz -13-02
+   : x86_64 CST Architecture
+2022 05:37:52 AMgrep -05-01
+   : x86_64 CDT Architecture
+2022 03:18:21 AMgroff -04-04
+   : x86_64 CST Architecture
+2021 05:36:11 AMgrub -21-12
+   : x86_64 CST Architecture
+2022 10:55:38 AMgsettings-desktop-schemas -26-01
+   : any CST Architecture
+2021 05:36:17 AMgsfonts -21-12
+   : any CST Architecture
+2022 05:10:06 AMgsl -05-01
+   : x86_64 CST Architecture
+2022 05:28:37 AMgsm -05-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMgspell -05-01
+   : x86_64 CST Architecture
+2022 05:38:03 AMgssdp -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMgssproxy -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMgst-libav -21-12
+   : x86_64 CST Architecture
+2022 10:27:32 AMgst-plugins-bad -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMgst-plugins-bad-libs -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMgst-plugins-base -13-02
+   : x86_64 CST Architecture
+2022 10:27:31 AMgst-plugins-base-libs -13-02
+   : x86_64 CST Architecture
+2022 10:27:30 AMgst-plugins-good -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMgst-plugins-ugly -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMgstreamer -13-02
+   : x86_64 CST Architecture
+2022 10:27:29 AMgtest -13-02
+   : x86_64 CST Architecture
+2022 05:38:03 AMgtk-doc -05-01
+   : any CST Architecture
+2022 05:03:52 PMgtk-update-icon-cache -05-01
+   : x86_64 CST Architecture
+2022 10:27:27 AMgtk2 -13-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMgtk3 -21-12
+   : x86_64 CST Architecture
+2022 10:27:29 AMgtkmm -13-02
+   : x86_64 CST Architecture
+2022 05:15:23 AMgtkmm3 -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMgtksourceview3 -21-12
+   : x86_64 CST Architecture
+2022 05:24:44 AMgtop -05-01
+   : any CST Architecture
+2022 08:43:54 AMgts -13-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMgucharmap -05-01
+   : x86_64 CST Architecture
+2022 10:45:14 PMguile -31-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMgupnp -21-12
+   : x86_64 CST Architecture
+2022 05:17:48 AMgupnp-igd -14-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMgutenprint -05-01
+   : x86_64 CST Architecture
+2022 05:10:42 AMguvcview -05-01
+   : x86_64 CST Architecture
+2022 05:28:37 AMguvcview-common -05-01
+   : x86_64 CST Architecture
+2022 05:28:37 AMgvfs -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMgvfs-smb -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMgzip -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMhalo-icons-git -21-12
+   : any CST Architecture
+2022 05:35:56 AMhandlr -05-01
+   : x86_64 CDT Architecture
+2022 03:12:49 AMharfbuzz -23-04
+   : x86_64 CST Architecture
+2022 10:27:24 AMharfbuzz-icu -13-02
+   : x86_64 CST Architecture
+2022 10:27:29 AMhaskell-aeson -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-aeson-pretty -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-ansi-terminal -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-appar -13-02
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-asn1-encoding -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-asn1-parse -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-asn1-types -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-assoc -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-async -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-attoparsec -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-base-compat -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-base-compat-batteries -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-base-orphans -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-base16-bytestring -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-base64-bytestring -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-basement -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-bifunctors -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-blaze-builder -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-blaze-html -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-blaze-markup -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-byteable -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-byteorder -14-01
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-case-insensitive -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-cereal -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-citeproc -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-cmdargs -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-colour -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-commonmark -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-commonmark-extensions -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-commonmark-pandoc -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-comonad -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-conduit -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-conduit-extra -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-connection -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-cookie -13-02
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-cryptonite -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-data-default -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-data-default-class -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-data-default-instances-containers -14-01
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-data-default-instances-dlist -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-data-default-instances-old-locale -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-data-fix -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-digest -13-02
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-distributive -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-dlist -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-doclayout -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-doctemplates -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-emojis -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-erf -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-errors -14-01
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-file-embed -14-01
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-ghc-bignum-orphans -14-01
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-glob -14-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-haddock-library -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-hashable -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-hourglass -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-hslua -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-hslua-module-path -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-hslua-module-system -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-hslua-module-text -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-hsyaml -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-http-client -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-http-client-tls -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-http-types -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-indexed-traversable -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-integer-logarithms -14-01
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-iproute -14-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-ipynb -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-jira-wiki-markup -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-juicypixels -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-memory -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-mime-types -13-02
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-mono-traversable -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-network -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-network-uri -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-old-locale -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-old-time -14-01
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-pandoc-types -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-pem -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-primitive -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-quickcheck -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-random -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-resourcet -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-safe -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-scientific -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-sha -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-skylighting -14-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-skylighting-core -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-socks -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-split -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-splitmix -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-streaming-commons -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-strict -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-syb -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-tagged -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-tagsoup -14-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-temporary -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-texmath -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-text-conversions -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-text-icu -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-th-abstraction -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-th-compat -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-th-lift -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-th-lift-instances -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-these -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-time-compat -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-tls -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-transformers-compat -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-typed-process -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-unicode-collation -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-unicode-data -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-unicode-transforms -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-uniplate -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-unliftio-core -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-unordered-containers -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-utf8-string -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-uuid-types -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-vector -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-vector-algorithms -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-x509 -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-x509-store -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-x509-system -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-x509-validation -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-xml -13-02
+   : x86_64 CST Architecture
+2022 02:42:58 PMhaskell-xml-conduit -14-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMhaskell-xml-types -13-02
+   : x86_64 CST Architecture
+2022 02:42:57 PMhaskell-zip-archive -14-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMhaskell-zlib -13-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMhdparm -13-02
+   : x86_64 CST Architecture
+2022 10:55:39 AMhicolor-icon-theme -26-01
+   : any CST Architecture
+2021 05:36:16 AMhidapi -21-12
+   : x86_64 CST Architecture
+2022 05:08:48 AMhplip -05-01
+   : x86_64 CST Architecture
+2022 05:11:22 AMhstr -05-01
+   : x86_64 CST Architecture
+2022 02:53:24 PMhtop -06-01
+   : x86_64 CST Architecture
+2022 05:20:30 AMhttp-parser -05-01
+   : x86_64 CST Architecture
+2022 03:02:21 PMhttrack -09-01
+   : x86_64 CST Architecture
+2022 07:37:11 AMhunspell -10-01
+   : x86_64 CST Architecture
+2022 05:13:01 AMhw-probe -05-01
+   : any CST Architecture
+2021 05:36:18 AMhwdata -21-12
+   : any CST Architecture
+2022 10:27:28 AMhwinfo -13-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMhwloc -21-12
+   : x86_64 CST Architecture
+2022 05:12:33 AMhyphen -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMi2c-tools -05-01
+   : x86_64 CST Architecture
+2022 05:08:48 AMi3-gaps -05-01
+   : x86_64 CST Architecture
+2022 05:15:21 AMi3blocks -05-01
+   : x86_64 CST Architecture
+2022 05:15:19 AMi3exit -05-01
+   : any CST Architecture
+2022 11:01:43 AMi3lock-color -13-01
+   : x86_64 CST Architecture
+2022 05:13:37 AMi3status -05-01
+   : x86_64 CST Architecture
+2022 05:15:22 AMi3status-rust -05-01
+   : x86_64 CST Architecture
+2022 06:59:19 PMiana-etc -14-02
+   : any CST Architecture
+2022 06:59:15 PMicu -14-02
+   : x86_64 CST Architecture
+2021 05:36:08 AMid3lib -21-12
+   : x86_64 CST Architecture
+2022 05:28:33 AMifuse -05-01
+   : x86_64 CST Architecture
+2022 05:39:08 AMijs -05-01
+   : x86_64 CST Architecture
+2022 05:09:55 AMimagemagick -05-01
+   : x86_64 CST Architecture
+2022 10:27:30 AMimath -13-02
+   : x86_64 CST Architecture
+2022 10:55:38 AMimlib2 -26-01
+   : x86_64 CST Architecture
+2022 10:27:33 AMiniparser -13-02
+   : x86_64 CST Architecture
+2022 05:09:47 AMinkscape -05-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMinotify-tools -13-02
+   : x86_64 CDT Architecture
+2022 05:44:04 AMintltool -23-03
+   : any CST Architecture
+2022 05:36:12 PMiproute2 -08-01
+   : x86_64 CST Architecture
+2022 04:47:07 PMiptables -12-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMiputils -21-12
+   : x86_64 CST Architecture
+2022 05:08:48 AMipw2100-fw -05-01
+   : any CST Architecture
+2021 05:36:10 AMipw2200-fw -21-12
+   : any CST Architecture
+2021 05:36:10 AMirssi -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMiso-codes -21-12
+   : any CST Architecture
+2022 05:08:48 AMitstool -05-01
+   : any CST Architecture
+2022 05:03:52 PMiw -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMjack2 -21-12
+   : x86_64 CST Architecture
+2022 10:27:32 AMjad -13-02
+   : x86_64 CST Architecture
+2022 05:38:18 AMjansson -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMjasper -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMjava-runtime-common -05-01
+   : any CDT Architecture
+2022 05:37:38 PMjbig2dec -30-03
+   : x86_64 CST Architecture
+2022 05:10:04 AMjellyfin-media-player -05-01
+   : x86_64 CDT Architecture
+2022 11:57:29 AMjfsutils -19-04
+   : x86_64 CST Architecture
+2021 05:36:10 AMjq -21-12
+   : x86_64 CDT Architecture
+2022 10:26:29 PMjre-openjdk -10-04
+   : x86_64 CDT Architecture
+2022 05:37:39 PMjre-openjdk-headless -30-03
+   : x86_64 CDT Architecture
+2022 05:37:39 PMjs78 -30-03
+   : x86_64 CST Architecture
+2022 10:55:39 AMjson-c -26-01
+   : x86_64 CST Architecture
+2022 10:27:27 AMjson-glib -13-02
+   : x86_64 CST Architecture
+2021 05:36:17 AMjsoncpp -21-12
+   : x86_64 CST Architecture
+2022 05:15:26 AMkaccounts-integration -05-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMkarchive -13-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkauth -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkbd -14-02
+   : x86_64 CST Architecture
+2021 05:36:08 AMkbookmarks -21-12
+   : x86_64 CST Architecture
+2022 06:59:18 PMkcmutils -14-02
+   : x86_64 CST Architecture
+2022 06:59:19 PMkcodecs -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkcompletion -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkconfig -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkconfigwidgets -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkcoreaddons -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkcrash -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkdbusaddons -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkdeclarative -14-02
+   : x86_64 CST Architecture
+2022 06:59:19 PMkdecoration -14-02
+   : x86_64 CST Architecture
+2022 10:27:31 AMkded -13-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkdenlive -14-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMkeyutils -13-02
+   : x86_64 CST Architecture
+2021 05:36:07 AMkfilemetadata -21-12
+   : x86_64 CST Architecture
+2022 06:59:19 PMkglobalaccel -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkguiaddons -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMki18n -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkiconthemes -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkio -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkirigami2 -14-02
+   : x86_64 CST Architecture
+2022 06:59:19 PMkitemviews -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkjobwidgets -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkmod -14-02
+   : x86_64 CST Architecture
+2022 10:27:27 AMknewstuff -13-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMknotifications -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMknotifyconfig -14-02
+   : x86_64 CST Architecture
+2022 06:59:19 PMkodi -14-02
+   : x86_64 CDT Architecture
+2022 05:33:29 PMkodi-addon-audioencoder-flac -30-03
+   : x86_64 CST Architecture
+2022 05:29:44 AMkodi-addon-audioencoder-lame -05-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-audioencoder-vorbis -10-01
+   : x86_64 CST Architecture
+2022 05:29:44 AMkodi-addon-audioencoder-wav -05-01
+   : x86_64 CST Architecture
+2022 05:29:44 AMkodi-addon-game-libretro -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-beetle-psx -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-desmume -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-flycast -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-gambatte -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-melonds -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-mgba -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-mupen64plus-nx -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-nestopia -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-parallel-n64 -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-scummvm -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-snes9x -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-game-libretro-yabause -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-inputstream-adaptive -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMkodi-addon-inputstream-rtmp -26-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-peripheral-joystick -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-asteroids -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-biogenesis -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-greynetic -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-matrixtrails -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-pingpong -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-pyro -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-screensaver-stars -10-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMkodi-addon-visualization-projectm -05-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-visualization-shadertoy -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-visualization-spectrum -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-addon-visualization-waveform -10-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMkodi-platform -10-01
+   : x86_64 CST Architecture
+2022 05:29:44 AMkpackage -05-01
+   : x86_64 CST Architecture
+2022 06:59:18 PMkparts -14-02
+   : x86_64 CST Architecture
+2022 06:59:19 PMkrb5 -14-02
+   : x86_64 CST Architecture
+2021 05:36:07 AMkservice -21-12
+   : x86_64 CST Architecture
+2022 06:59:18 PMktextwidgets -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMktorrent -14-02
+   : x86_64 CST Architecture
+2022 10:27:38 AMkwallet -13-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkwave -14-02
+   : x86_64 CST Architecture
+2022 10:27:39 AMkwayland -13-02
+   : x86_64 CST Architecture
+2022 06:59:19 PMkwidgetsaddons -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkwindowsystem -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMkxmlgui -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMl-smash -14-02
+   : x86_64 CST Architecture
+2022 05:12:32 AMlame -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMlapack -05-01
+   : x86_64 CST Architecture
+2022 05:15:13 AMlaptop-detect -05-01
+   : any CST Architecture
+2021 05:36:18 AMlbzip2 -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMlcms2 -21-12
+   : x86_64 CST Architecture
+2022 10:27:28 AMldb -13-02
+   : x86_64 CST Architecture
+2022 10:27:39 AMldns -13-02
+   : x86_64 CST Architecture
+2022 05:08:48 AMlensfun -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMless -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlib2geom -21-12
+   : x86_64 CST Architecture
+2022 05:38:03 AMlib32-acl -05-01
+   : x86_64 CST Architecture
+2022 01:15:30 PMlib32-alsa-lib -09-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-alsa-plugins -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-amdvlk -05-01
+   : x86_64 CST Architecture
+2022 05:54:47 AMlib32-atk -30-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-attr -05-01
+   : x86_64 CST Architecture
+2022 01:15:30 PMlib32-brotli -09-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-bzip2 -26-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-cairo -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-curl -05-01
+   : x86_64 CST Architecture
+2022 04:35:13 PMlib32-dbus -06-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-e2fsprogs -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-expat -05-01
+   : x86_64 CST Architecture
+2022 10:27:39 AMlib32-faudio -13-02
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-flac -26-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-fontconfig -05-01
+   : x86_64 CST Architecture
+2022 10:27:39 AMlib32-freetype2 -13-02
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-fribidi -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-gcc-libs -05-01
+   : x86_64 CST Architecture
+2022 06:59:19 PMlib32-gdk-pixbuf2 -14-02
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-gettext -05-01
+   : x86_64 CST Architecture
+2022 01:15:30 PMlib32-glib2 -09-01
+   : x86_64 CST Architecture
+2022 10:27:39 AMlib32-glibc -13-02
+   : x86_64 CST Architecture
+2022 06:59:17 PMlib32-glu -14-02
+   : x86_64 CST Architecture
+2022 05:51:20 AMlib32-gmp -10-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-gnutls -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-gtk2 -26-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-harfbuzz -05-01
+   : x86_64 CST Architecture
+2022 10:27:39 AMlib32-icu -13-02
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-keyutils -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-krb5 -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-lcms2 -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-libasyncns -13-02
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libcap -05-01
+   : x86_64 CST Architecture
+2022 10:19:06 AMlib32-libcups -27-01
+   : x86_64 CST Architecture
+2022 05:54:47 AMlib32-libdatrie -30-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libdbusmenu-glib -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libdbusmenu-gtk2 -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libdrm -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libelf -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-libffi -13-02
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libgcrypt -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libglvnd -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libgpg-error -05-01
+   : x86_64 CST Architecture
+2022 05:54:47 AMlib32-libice -30-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libidn2 -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libindicator-gtk2 -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libjpeg-turbo -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libldap -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-libnl -26-01
+   : x86_64 CST Architecture
+2022 01:15:30 PMlib32-libogg -09-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libpcap -05-01
+   : x86_64 CST Architecture
+2022 01:15:30 PMlib32-libpciaccess -09-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libpng -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libpsl -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libpulse -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libsm -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libsndfile -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libssh2 -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libtasn1 -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libthai -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libtiff -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libtirpc -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libunistring -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libunwind -05-01
+   : x86_64 CST Architecture
+2022 04:47:07 PMlib32-libva -12-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libvorbis -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libx11 -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxau -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxcb -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxcomposite -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libxcrypt -05-01
+   : x86_64 CST Architecture
+2022 10:27:39 AMlib32-libxcursor -13-02
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libxdamage -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxdmcp -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxext -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxfixes -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxft -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libxi -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libxinerama -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-libxml2 -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxrandr -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libxrender -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libxshmfence -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-libxss -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libxtst -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-libxxf86vm -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-llvm-libs -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-lm_sensors -13-02
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-mesa -05-01
+   : x86_64 CST Architecture
+2022 08:47:46 AMlib32-ncurses -28-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-nettle -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-nspr -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-nss -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-openal -13-02
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-openssl -05-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-opus -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-p11-kit -13-02
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-pam -26-01
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-pango -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-pcre -13-02
+   : x86_64 CST Architecture
+2022 05:20:16 AMlib32-pixman -05-01
+   : x86_64 CST Architecture
+2022 05:20:18 AMlib32-readline -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlib32-sdl2 -13-02
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-sqlite -26-01
+   : x86_64 CST Architecture
+2022 04:47:07 PMlib32-systemd -12-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-util-linux -26-01
+   : x86_64 CST Architecture
+2022 06:59:19 PMlib32-vulkan-icd-loader -14-02
+   : x86_64 CST Architecture
+2022 10:55:40 AMlib32-wayland -26-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-xz -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-zlib -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlib32-zstd -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibaacs -26-01
+   : x86_64 CDT Architecture
+2022 05:37:39 PMlibabw -30-03
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibaccounts-glib -05-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMlibaccounts-qt -13-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMlibaio -13-02
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibao -21-12
+   : x86_64 CST Architecture
+2022 05:29:04 AMlibappindicator-gtk3 -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibarchive -21-12
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibass -13-02
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibassuan -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibasyncns -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibatasmart -21-12
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibatomic_ops -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibavc1394 -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibavif -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibavtp -05-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMlibb64 -13-02
+   : x86_64 CST Architecture
+2022 10:28:03 AMlibblockdev -13-02
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibbluray -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibbs2b -05-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibbsd -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibbytesize -26-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibcaca -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibcanberra -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibcap -21-12
+   : x86_64 CST Architecture
+2022 10:27:27 AMlibcap-ng -13-02
+   : x86_64 CST Architecture
+2022 10:27:27 AMlibcbor -13-02
+   : x86_64 CST Architecture
+2022 05:08:48 AMlibcddb -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibcdio -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibcdio-paranoia -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMlibcdr -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibcec -05-01
+   : x86_64 CST Architecture
+2022 05:29:03 AMlibcloudproviders -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibcolord -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibconfig -21-12
+   : x86_64 CST Architecture
+2022 05:15:24 AMlibcpuid -05-01
+   : x86_64 CST Architecture
+2022 05:20:30 AMlibcroco -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibcue -21-12
+   : x86_64 CST Architecture
+2022 05:27:55 AMlibcups -05-01
+   : x86_64 CST Architecture
+2022 05:54:46 AMlibdaemon -30-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibdatrie -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibdbusmenu-glib -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibdbusmenu-gtk2 -21-12
+   : x86_64 CST Architecture
+2022 05:20:18 AMlibdbusmenu-gtk3 -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibdbusmenu-qt5 -21-12
+   : x86_64 CST Architecture
+2022 05:28:33 AMlibdc1394 -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibdca -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibde265 -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibdrm -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibdv -21-12
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibdvbpsi -05-01
+   : x86_64 CST Architecture
+2022 11:39:49 PMlibdvdnav -12-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibdvdread -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibe-book -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibebml -05-01
+   : x86_64 CST Architecture
+2022 11:39:49 PMlibebur128 -12-01
+   : x86_64 CST Architecture
+2022 07:47:27 PMlibedit -27-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibelf -21-12
+   : x86_64 CST Architecture
+2022 06:59:17 PMlibepoxy -14-02
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibepubgen -21-12
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibetonyek -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibev -05-01
+   : x86_64 CST Architecture
+2022 05:13:37 AMlibevdev -05-01
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibevent -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibexif -21-12
+   : x86_64 CST Architecture
+2022 05:15:19 AMlibexttextcat -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibfdk-aac -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibffi -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibfido2 -21-12
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibfilezilla -26-01
+   : x86_64 CST Architecture
+2022 10:27:33 AMlibfm -13-02
+   : x86_64 CST Architecture
+2022 02:50:35 AMlibfm-extra -09-01
+   : x86_64 CST Architecture
+2022 02:50:35 AMlibfm-gtk2 -09-01
+   : x86_64 CST Architecture
+2022 02:50:35 AMlibfontenc -09-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibfreeaptx -21-12
+   : x86_64 CST Architecture
+2022 05:29:50 AMlibfreehand -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibftdi -05-01
+   : x86_64 CST Architecture
+2022 05:27:55 AMlibgcrypt -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibgexiv2 -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibgit2 -05-01
+   : x86_64 CST Architecture
+2022 10:55:36 AMlibgksu -26-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMlibglvnd -21-12
+   : x86_64 CST Architecture
+2022 05:08:48 AMlibgme -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibgnome-keyring -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMlibgpg-error -21-12
+   : x86_64 CST Architecture
+2022 05:54:46 AMlibgphoto2 -30-01
+   : x86_64 CST Architecture
+2022 11:43:28 PMlibgpod -12-01
+   : x86_64 CST Architecture
+2022 05:28:13 AMlibgsf -05-01
+   : x86_64 CDT Architecture
+2022 01:44:37 AMlibgtop -17-03
+   : x86_64 CST Architecture
+2021 05:36:18 AMlibgudev -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibguess -21-12
+   : x86_64 CST Architecture
+2022 05:27:55 AMlibhandy -05-01
+   : x86_64 CST Architecture
+2022 05:03:53 PMlibheif -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibibus -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibical -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibice -13-02
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibid3tag -21-12
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibidn -05-01
+   : x86_64 CST Architecture
+2022 05:10:04 AMlibidn2 -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibiec61883 -21-12
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibimagequant -05-01
+   : x86_64 CST Architecture
+2022 05:29:04 AMlibimobiledevice -05-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMlibindicator-gtk2 -21-12
+   : x86_64 CST Architecture
+2022 05:20:18 AMlibindicator-gtk3 -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibinih -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMlibinput -21-12
+   : x86_64 CST Architecture
+2022 10:55:39 AMlibinstpatch -26-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibixion -05-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibjpeg-turbo -13-02
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibkate -21-12
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibksba -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibktorrent -21-12
+   : x86_64 CST Architecture
+2022 10:27:37 AMliblangtag -13-02
+   : x86_64 CST Architecture
+2022 05:26:17 AMliblastfm-qt5 -05-01
+   : x86_64 CST Architecture
+2022 05:28:13 AMlibldac -05-01
+   : x86_64 CST Architecture
+2022 05:29:50 AMlibldap -05-01
+   : x86_64 CST Architecture
+2022 10:55:36 AMliblouis -26-01
+   : x86_64 CST Architecture
+2022 05:09:55 AMliblqr -05-01
+   : x86_64 CST Architecture
+2022 05:09:55 AMliblrdf -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibltc -05-01
+   : x86_64 CST Architecture
+2022 10:27:36 AMlibmad -13-02
+   : x86_64 CST Architecture
+2022 05:28:03 AMlibmanette -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlibmatroska -05-01
+   : x86_64 CST Architecture
+2022 11:39:49 PMlibmaxminddb -12-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibmbim -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibmd -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibmfx -21-12
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibmicrodns -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibmicrohttpd -05-01
+   : x86_64 CST Architecture
+2022 05:29:03 AMlibmikmod -05-01
+   : x86_64 CST Architecture
+2022 10:37:56 PMlibmm-glib -31-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibmms -13-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibmng -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibmnl -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibmodplug -21-12
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibmpc -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMlibmpcdec -21-12
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibmpdclient -05-01
+   : x86_64 CST Architecture
+2022 05:15:26 AMlibmpeg2 -05-01
+   : x86_64 CST Architecture
+2022 05:12:35 AMlibmspub -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibmtp -05-01
+   : x86_64 CST Architecture
+2022 05:27:55 AMlibmwaw -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibmygpo-qt5 -05-01
+   : x86_64 CST Architecture
+2022 05:28:13 AMlibmypaint -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibnatpmp -05-01
+   : x86_64 CST Architecture
+2022 10:28:03 AMlibndp -13-02
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibnet -21-12
+   : x86_64 CDT Architecture
+2022 05:37:38 PMlibnetfilter_conntrack -30-03
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibnewt -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMlibnfnetlink -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibnfs -21-12
+   : x86_64 CST Architecture
+2022 05:29:03 AMlibnftnl -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibnghttp2 -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibnice -21-12
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibnl -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibnm -21-12
+   : x86_64 CST Architecture
+2022 05:17:48 AMlibnma -14-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibnotify -26-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibnsl -21-12
+   : x86_64 CST Architecture
+2022 10:27:30 AMlibnumbertext -13-02
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibodfgen -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibofa -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibogg -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibomxil-bellagio -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibopenmpt -21-12
+   : x86_64 CST Architecture
+2022 10:27:36 AMlibopenshot-audio-git -13-02
+   : x86_64 CST Architecture
+2022 07:49:30 PMlibopenshot-git -27-01
+   : x86_64 CST Architecture
+2022 07:51:55 PMliborcus -27-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibotr -13-02
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibp11-kit -21-12
+   : x86_64 CST Architecture
+2022 10:55:36 AMlibpagemaker -26-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibpamac-aur -05-01
+   : x86_64 CST Architecture
+2022 05:54:47 AMlibpaper -30-01
+   : x86_64 CST Architecture
+2022 05:09:55 AMlibpcap -05-01
+   : x86_64 CST Architecture
+2022 10:27:28 AMlibpciaccess -13-02
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibpgm -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibpipeline -21-12
+   : x86_64 CST Architecture
+2022 04:35:13 PMlibplacebo -06-01
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibplist -13-02
+   : x86_64 CST Architecture
+2021 05:36:12 AMlibpng -21-12
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibproxy -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibpsl -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibpulse -21-12
+   : x86_64 CDT Architecture
+2022 02:06:04 AMlibpwquality -19-04
+   : x86_64 CST Architecture
+2021 05:36:23 AMlibqmi -21-12
+   : x86_64 CST Architecture
+2022 10:27:42 AMlibqrtr-glib -13-02
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibqxp -21-12
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibraqm -05-01
+   : x86_64 CST Architecture
+2022 10:27:30 AMlibraw -13-02
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibraw1394 -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibreoffice-still -05-01
+   : x86_64 CST Architecture
+2022 10:27:44 AMlibretro-beetle-psx -13-02
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibretro-core-info -26-01
+   : any CST Architecture
+2022 10:55:40 AMlibretro-desmume -26-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMlibretro-flycast -05-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMlibretro-gambatte -10-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibretro-melonds -26-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMlibretro-mgba -10-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibretro-mupen64plus-next -26-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMlibretro-nestopia -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibretro-parallel-n64 -26-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMlibretro-scummvm -05-01
+   : x86_64 CST Architecture
+2022 05:51:20 AMlibretro-snes9x -10-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibretro-yabause -26-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMlibrevenge -26-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibrsvg -05-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibsamplerate -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibsasl -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibseccomp -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibsecret -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMlibshout -21-12
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibsidplay -05-01
+   : x86_64 CST Architecture
+2022 05:12:35 AMlibsidplayfp -05-01
+   : x86_64 CST Architecture
+2022 05:27:55 AMlibsigc++ -05-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMlibsm -13-02
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibsndfile -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibsodium -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibsoup -21-12
+   : x86_64 CST Architecture
+2022 02:50:32 AMlibsoup3 -09-01
+   : x86_64 CST Architecture
+2022 02:50:32 AMlibsoxr -09-01
+   : x86_64 CST Architecture
+2022 05:09:38 AMlibspiro -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibsrtp -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlibssh -05-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibssh2 -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibstaroffice -21-12
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibstemmer -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibsysprof-capture -21-12
+   : x86_64 CST Architecture
+2022 06:59:17 PMlibtar -14-02
+   : x86_64 CST Architecture
+2022 11:39:49 PMlibtasn1 -12-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibteam -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibthai -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibtheora -21-12
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibtiff -05-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibtirpc -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibtommath -21-12
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibtool -05-01
+   : x86_64 CST Architecture
+2022 06:59:18 PMlibunistring -14-02
+   : x86_64 CST Architecture
+2021 05:36:07 AMlibunwind -21-12
+   : x86_64 CST Architecture
+2022 05:08:48 AMlibupnp -05-01
+   : x86_64 CST Architecture
+2022 11:39:49 PMliburcu -12-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMliburing -26-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMlibusb -21-12
+   : x86_64 CST Architecture
+2022 10:27:28 AMlibusb-compat -13-02
+   : x86_64 CST Architecture
+2021 05:36:10 AMlibusbmuxd -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMlibutempter -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMlibutf8proc -21-12
+   : x86_64 CDT Architecture
+2022 09:57:16 AMlibuv -13-03
+   : x86_64 CST Architecture
+2022 10:55:36 AMlibuvc -26-01
+   : x86_64 CST Architecture
+2022 11:33:28 PMlibva -12-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibva-vdpau-driver -05-01
+   : x86_64 CDT Architecture
+2022 05:37:39 PMlibvdpau -30-03
+   : x86_64 CST Architecture
+2022 05:12:32 AMlibvisio -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibvisual -05-01
+   : x86_64 CST Architecture
+2022 05:12:34 AMlibvorbis -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibvpx -21-12
+   : x86_64 CST Architecture
+2022 05:11:50 AMlibwacom -05-01
+   : x86_64 CST Architecture
+2022 10:27:28 AMlibwebp -13-02
+   : x86_64 CST Architecture
+2022 10:55:37 AMlibwmf -26-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibwnck3 -05-01
+   : x86_64 CST Architecture
+2021 05:36:23 AMlibwpd -21-12
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibwpe -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlibwpg -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibwps -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlibx11 -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibx86emu -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMlibxau -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxaw -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxcb -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxcomposite -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxcrypt -21-12
+   : x86_64 CST Architecture
+2022 10:27:27 AMlibxcursor -13-02
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxcvt -21-12
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibxdamage -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxdg-basedir -21-12
+   : x86_64 CST Architecture
+2022 05:15:27 AMlibxdmcp -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxext -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxfce4ui -21-12
+   : x86_64 CST Architecture
+2022 05:15:29 AMlibxfce4util -05-01
+   : x86_64 CST Architecture
+2022 05:15:29 AMlibxfixes -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxfont2 -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxft -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxi -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxinerama -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxkbcommon -21-12
+   : x86_64 CST Architecture
+2022 10:27:27 AMlibxkbcommon-x11 -13-02
+   : x86_64 CST Architecture
+2022 10:27:30 AMlibxkbfile -13-02
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxml2 -21-12
+   : x86_64 CST Architecture
+2022 10:55:36 AMlibxmlb -26-01
+   : x86_64 CST Architecture
+2022 05:08:47 AMlibxmu -05-01
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibxpm -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxrandr -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxrender -21-12
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibxres -21-12
+   : x86_64 CST Architecture
+2021 05:36:23 AMlibxshmfence -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibxslt -21-12
+   : x86_64 CST Architecture
+2022 05:11:37 AMlibxss -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMlibxt -21-12
+   : x86_64 CST Architecture
+2021 05:36:14 AMlibxtst -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxv -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxvmc -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMlibxxf86vm -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMlibyaml -21-12
+   : x86_64 CST Architecture
+2021 05:36:22 AMlibyuv -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMlibzip -05-01
+   : x86_64 CST Architecture
+2022 05:29:45 AMlibzmf -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlicenses -05-01
+   : any CST Architecture
+2022 10:19:06 AMlilv -27-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMlinux -05-01
+   : x86_64 CST Architecture
+2022 06:59:20 PMlinux-api-headers -14-02
+   : any CST Architecture
+2022 06:59:15 PMlinux-atm -14-02
+   : x86_64 CST Architecture
+2021 05:36:10 AMlinux-firmware -21-12
+   : any CST Architecture
+2022 10:55:41 AMlinux-firmware-whence -26-01
+   : any CST Architecture
+2022 10:55:41 AMlinux-headers -26-01
+   : x86_64 CST Architecture
+2022 06:59:21 PMlirc -14-02
+   : x86_64 CST Architecture
+2022 10:27:47 AMllvm-libs -13-02
+   : x86_64 CST Architecture
+2022 10:27:28 AMlm_sensors -13-02
+   : x86_64 CST Architecture
+2021 05:36:13 AMlmdb -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMlogrotate -21-12
+   : x86_64 CST Architecture
+2022 10:55:42 AMlpsolve -26-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMlrzip -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMlsb-release -21-12
+   : any CST Architecture
+2021 05:36:17 AMlshw -21-12
+   : x86_64 CST Architecture
+2022 04:47:11 PMlsof -12-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMlsscsi -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMlua52 -21-12
+   : x86_64 CST Architecture
+2022 05:39:31 AMlua53 -05-01
+   : x86_64 CST Architecture
+2022 02:42:58 PMlua53-lgi -14-01
+   : x86_64 CDT Architecture
+2022 04:10:34 PMluajit -08-04
+   : x86_64 CST Architecture
+2022 10:27:47 AMlv2 -13-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMlvm2 -05-01
+   : x86_64 CST Architecture
+2022 10:27:31 AMlxappearance -13-02
+   : x86_64 CDT Architecture
+2022 01:48:40 AMlxmenu-data -17-03
+   : any CST Architecture
+2022 02:50:35 AMlxrandr -09-01
+   : x86_64 CST Architecture
+2022 11:23:32 PMlz4 -29-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMlzo -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMlzop -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMm4 -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMmailcap -21-12
+   : any CST Architecture
+2022 05:33:13 AMmake -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMman-db -21-12
+   : x86_64 CST Architecture
+2022 06:59:21 PMman-pages -14-02
+   : any CST Architecture
+2021 05:36:11 AMmariadb-libs -21-12
+   : x86_64 CST Architecture
+2022 06:59:21 PMmateria-gtk-theme -14-02
+   : any CST Architecture
+2022 05:35:28 AMmbedtls -05-01
+   : x86_64 CST Architecture
+2022 05:29:50 AMmc -05-01
+   : x86_64 CST Architecture
+2022 10:55:42 AMmd4c -26-01
+   : x86_64 CST Architecture
+2021 05:36:22 AMmdadm -21-12
+   : x86_64 CST Architecture
+2022 04:47:07 PMmedia-player-info -12-01
+   : any CST Architecture
+2022 05:28:32 AMmeld -05-01
+   : any CST Architecture
+2022 05:24:44 AMmemtest86+ -05-01
+   : any CST Architecture
+2021 05:36:11 AMmenu-cache -21-12
+   : x86_64 CST Architecture
+2022 02:50:35 AMmesa -09-01
+   : x86_64 CST Architecture
+2022 08:47:44 AMmesa-utils -28-01
+   : x86_64 CST Architecture
+2022 10:27:47 AMmeson -13-02
+   : any CST Architecture
+2022 06:59:21 PMmetis -14-02
+   : x86_64 CST Architecture
+2022 05:37:52 AMmimeo -05-01
+   : any CDT Architecture
+2022 06:33:26 AMminiupnpc -22-03
+   : x86_64 CST Architecture
+2022 10:28:03 AMminizip -13-02
+   : x86_64 CST Architecture
+2022 05:24:42 AMmjpegtools -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMmjpg-streamer -05-01
+   : x86_64 CST Architecture
+2022 11:43:45 PMmkinitcpio -12-01
+   : any CST Architecture
+2021 05:36:10 AMmkinitcpio-busybox -21-12
+   : x86_64 CST Architecture
+2022 10:27:44 AMmkinitcpio-nfs-utils -13-02
+   : x86_64 CST Architecture
+2021 05:36:11 AMmkinitcpio-openswap -21-12
+   : any CST Architecture
+2021 05:36:22 AMmlocate -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMmlt -21-12
+   : x86_64 CST Architecture
+2022 10:29:35 AMmlt6 -13-02
+   : x86_64 CST Architecture
+2022 07:47:27 PMmobile-broadband-provider-info -27-01
+   : any CST Architecture
+2021 05:36:11 AMmodemmanager -21-12
+   : x86_64 CST Architecture
+2022 10:27:47 AMmoka-icon-theme-git -13-02
+   : any CST Architecture
+2022 05:36:26 AMmost -05-01
+   : x86_64 CST Architecture
+2022 10:27:30 AMmpd -13-02
+   : x86_64 CDT Architecture
+2022 06:16:38 AMmpdecimal -19-03
+   : x86_64 CST Architecture
+2022 09:19:20 PMmpfr -06-01
+   : x86_64 CST Architecture
+2022 06:59:18 PMmpg123 -14-02
+   : x86_64 CST Architecture
+2022 05:11:50 AMmpv -05-01
+   : x86_64 CST Architecture
+2022 10:55:43 AMmtdev -26-01
+   : x86_64 CST Architecture
+2021 05:36:14 AMmtools -21-12
+   : x86_64 CST Architecture
+2022 05:51:20 AMmujs -10-01
+   : x86_64 CST Architecture
+2022 05:54:47 AMmypaint-brushes1 -30-01
+   : any CST Architecture
+2022 05:37:52 AMmysql-workbench -05-01
+   : x86_64 CST Architecture
+2022 07:01:14 AMnano -22-02
+   : x86_64 CST Architecture
+2022 06:59:21 PMnasm -14-02
+   : x86_64 CDT Architecture
+2022 05:37:39 PMnbd -30-03
+   : x86_64 CST Architecture
+2021 05:36:11 AMncurses -21-12
+   : x86_64 CST Architecture
+2022 10:27:24 AMndctl -13-02
+   : x86_64 CST Architecture
+2022 05:17:48 AMndisc6 -14-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMneofetch -21-12
+   : any CST Architecture
+2021 05:36:22 AMneon -21-12
+   : x86_64 CST Architecture
+2022 10:55:38 AMnerd-fonts-git -26-01
+   : any CDT Architecture
+2022 09:33:37 PMnet-snmp -16-03
+   : x86_64 CST Architecture
+2022 05:11:22 AMnet-tools -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMnetpbm -21-12
+   : x86_64 CST Architecture
+2022 05:37:52 AMnettle -05-01
+   : x86_64 CST Architecture
+2021 05:36:08 AMnetwork-manager-applet -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMnetworkmanager -21-12
+   : x86_64 CST Architecture
+2022 05:17:48 AMnetworkmanager-openconnect -14-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMnetworkmanager-openvpn -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMnetworkmanager-pptp -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMnetworkmanager-vpnc -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMnfs-utils -21-12
+   : x86_64 CST Architecture
+2022 10:55:43 AMnfsidmap -26-01
+   : x86_64 CST Architecture
+2022 10:55:43 AMnilfs-utils -26-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMninja -21-12
+   : x86_64 CST Architecture
+2022 05:03:52 PMnitrogen -05-01
+   : x86_64 CST Architecture
+2022 05:15:23 AMnm-connection-editor -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMnnn -21-12
+   : x86_64 CST Architecture
+2022 04:33:21 PMnodejs -05-01
+   : x86_64 CST Architecture
+2022 06:59:21 PMnoto-fonts -14-02
+   : any CST Architecture
+2021 05:36:18 AMnpth -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMnspr -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMnss -21-12
+   : x86_64 CST Architecture
+2022 10:27:31 AMnss-mdns -13-02
+   : x86_64 CST Architecture
+2022 05:09:44 AMntfs-3g -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMntp -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMnumactl -21-12
+   : x86_64 CST Architecture
+2022 10:27:36 AMnumix-circle-arc-icons-git -13-02
+   : any CST Architecture
+2022 05:36:33 AMnumix-circle-icon-theme-git -05-01
+   : any CST Architecture
+2022 10:27:48 AMnumix-gtk-theme-git -13-02
+   : any CST Architecture
+2022 05:35:30 AMnumix-icon-theme-git -05-01
+   : any CST Architecture
+2022 05:36:32 AMnumlockx -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMnvidia -21-12
+   : x86_64 CST Architecture
+2022 06:59:22 PMnvidia-utils -14-02
+   : x86_64 CST Architecture
+2022 10:27:29 AMnvm -13-02
+   : any CST Architecture
+2022 02:42:18 PMnvme-cli -07-03
+   : x86_64 CST Architecture
+2022 08:47:46 AMoath-toolkit -28-01
+   : x86_64 CST Architecture
+2022 05:11:37 AMobs-studio -05-01
+   : x86_64 CST Architecture
+2022 05:29:50 AMoh-my-zsh-git -05-01
+   : any CST Architecture
+2022 10:27:48 AMoh-my-zsh-powerline-theme-git -13-02
+   : any CST Architecture
+2022 05:38:06 AMoniguruma -05-01
+   : x86_64 CST Architecture
+2022 04:28:55 PMopenal -06-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMopenconnect -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMopencore-amr -21-12
+   : x86_64 CST Architecture
+2022 05:12:32 AMopencv -05-01
+   : x86_64 CST Architecture
+2022 03:45:16 PMopenexr -27-01
+   : x86_64 CST Architecture
+2022 10:19:06 AMopenjpeg2 -27-01
+   : x86_64 CST Architecture
+2022 05:09:55 AMopenmpi -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMopenresolv -05-01
+   : any CST Architecture
+2021 05:36:17 AMopenshot -21-12
+   : any CST Architecture
+2022 10:03:07 AMopenssh -13-02
+   : x86_64 CST Architecture
+2021 05:36:09 AMopenssl -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMopenssl-1.0 -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMopenvpn -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMopus -21-12
+   : x86_64 CST Architecture
+2022 10:27:31 AMorc -13-02
+   : x86_64 CST Architecture
+2022 05:09:38 AMos-prober -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMp11-kit -21-12
+   : x86_64 CST Architecture
+2022 10:55:36 AMp8-platform -26-01
+   : x86_64 CST Architecture
+2022 05:29:03 AMpacman -05-01
+   : x86_64 CST Architecture
+2022 02:50:34 AMpacman-mirrorlist -09-01
+   : any CST Architecture
+2022 10:55:43 AMpahole -26-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMpam -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMpamac-aur -21-12
+   : x86_64 CST Architecture
+2022 05:04:28 PMpambase -05-01
+   : any CST Architecture
+2021 05:36:07 AMpandoc -21-12
+   : x86_64 CST Architecture
+2022 10:27:48 AMpango -13-02
+   : x86_64 CST Architecture
+2022 10:27:27 AMpangomm -13-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMpaper-icon-theme -21-12
+   : any CST Architecture
+2022 05:37:08 AMpapirus-icon-theme -05-01
+   : any CST Architecture
+2022 10:27:53 AMpartclone -13-02
+   : x86_64 CST Architecture
+2021 05:36:09 AMparted -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMpartimage -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMparu-bin -21-12
+   : x86_64 CST Architecture
+2021 05:36:22 AMpass -21-12
+   : any CST Architecture
+2022 11:36:22 AMpassrofi-git -14-01
+   : any CST Architecture
+2022 02:13:19 PMpatch -29-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMpavucontrol -21-12
+   : x86_64 CST Architecture
+2022 05:11:39 AMpbzip2 -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMpciutils -21-12
+   : x86_64 CST Architecture
+2022 04:47:12 PMpcmanfm -12-01
+   : x86_64 CST Architecture
+2022 02:50:35 AMpcmanfm-hardlinkcopy -09-01
+   : x86_64 CST Architecture
+2022 10:44:51 AMpcre -21-02
+   : x86_64 CST Architecture
+2021 05:36:08 AMpcre2 -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMpcsclite -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMperl -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMperl-alien-build -21-12
+   : any CST Architecture
+2022 05:10:09 AMperl-alien-libxml2 -05-01
+   : any CST Architecture
+2022 05:10:09 AMperl-capture-tiny -05-01
+   : any CST Architecture
+2022 05:10:09 AMperl-clone -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMperl-config-simple -21-12
+   : any CDT Architecture
+2022 03:56:53 PMperl-data-messagepack -20-03
+   : x86_64 CDT Architecture
+2022 03:56:53 PMperl-data-section-simple -20-03
+   : any CDT Architecture
+2022 03:57:00 PMperl-dbi -20-03
+   : x86_64 CST Architecture
+2022 05:10:09 AMperl-encode-locale -05-01
+   : any CST Architecture
+2021 05:36:18 AMperl-error -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-extutils-config -21-12
+   : any CDT Architecture
+2022 03:56:53 PMperl-extutils-helpers -20-03
+   : any CDT Architecture
+2022 03:56:53 PMperl-extutils-installpaths -20-03
+   : any CDT Architecture
+2022 03:56:53 PMperl-ffi-checklib -20-03
+   : any CST Architecture
+2022 05:10:09 AMperl-file-chdir -05-01
+   : any CST Architecture
+2022 05:10:09 AMperl-file-listing -05-01
+   : any CST Architecture
+2021 05:36:18 AMperl-file-slurper -21-12
+   : any CDT Architecture
+2022 03:56:53 PMperl-file-which -20-03
+   : any CST Architecture
+2022 10:55:43 AMperl-html-parser -26-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMperl-html-tagset -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-http-cookies -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-http-daemon -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-http-date -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-http-message -21-12
+   : any CST Architecture
+2022 10:27:53 AMperl-http-negotiate -13-02
+   : any CST Architecture
+2021 05:36:18 AMperl-io-html -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-io-tty -21-12
+   : x86_64 CDT Architecture
+2022 03:56:53 PMperl-ipc-run -20-03
+   : any CDT Architecture
+2022 03:56:53 PMperl-libwww -20-03
+   : any CST Architecture
+2022 05:08:50 AMperl-lwp-mediatypes -05-01
+   : any CST Architecture
+2022 05:08:50 AMperl-mailtools -05-01
+   : any CST Architecture
+2021 05:36:18 AMperl-module-build-tiny -21-12
+   : any CDT Architecture
+2022 03:56:53 PMperl-net-http -20-03
+   : any CST Architecture
+2022 10:27:53 AMperl-net-mpd -13-02
+   : any CDT Architecture
+2022 03:57:05 PMperl-parse-yapp -20-03
+   : any CST Architecture
+2022 05:11:37 AMperl-path-tiny -05-01
+   : any CST Architecture
+2022 05:54:47 AMperl-test-requires -30-01
+   : any CDT Architecture
+2022 03:56:53 PMperl-timedate -20-03
+   : any CST Architecture
+2021 05:36:18 AMperl-try-tiny -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-uri -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-www-robotrules -21-12
+   : any CST Architecture
+2021 05:36:18 AMperl-xml-libxml -21-12
+   : x86_64 CST Architecture
+2022 05:10:09 AMperl-xml-namespacesupport -05-01
+   : any CST Architecture
+2022 05:10:09 AMperl-xml-parser -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMperl-xml-sax -21-12
+   : any CST Architecture
+2022 05:10:09 AMperl-xml-sax-base -05-01
+   : any CST Architecture
+2022 05:10:09 AMperl-xml-writer -05-01
+   : any CST Architecture
+2021 05:36:18 AMphonon-qt5 -21-12
+   : x86_64 CST Architecture
+2022 10:27:37 AMphonon-qt5-gstreamer -13-02
+   : x86_64 CST Architecture
+2022 10:27:37 AMphp -13-02
+   : x86_64 CST Architecture
+2022 06:43:38 AMpicom -11-03
+   : x86_64 CST Architecture
+2022 06:59:22 PMpigz -14-02
+   : x86_64 CST Architecture
+2021 05:36:09 AMpinentry -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMpipewire -21-12
+   : x86_64 CST Architecture
+2022 10:27:53 AMpixman -13-02
+   : x86_64 CST Architecture
+2021 05:36:13 AMpixz -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMpkcs11-helper -21-12
+   : x86_64 CST Architecture
+2022 05:08:50 AMpkgconf -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMpkgfile -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMplayerctl -21-12
+   : x86_64 CST Architecture
+2022 05:12:37 AMpolkit -05-01
+   : x86_64 CST Architecture
+2022 10:55:40 AMpolkit-gnome -26-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMpolkit-qt5 -21-12
+   : x86_64 CST Architecture
+2022 05:28:33 AMpolybar -05-01
+   : x86_64 CST Architecture
+2022 05:15:26 AMpoppler -05-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMpoppler-data -13-02
+   : any CST Architecture
+2022 05:37:52 AMpoppler-glib -05-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMpoppler-qt5 -13-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMpopt -13-02
+   : x86_64 CST Architecture
+2022 10:27:27 AMportaudio -13-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMportsmf -05-01
+   : x86_64 CST Architecture
+2022 05:28:04 AMpotrace -05-01
+   : x86_64 CST Architecture
+2022 05:38:03 AMpowertop -05-01
+   : x86_64 CST Architecture
+2022 05:20:31 AMppp -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMpptpclient -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMprocps-ng -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMprogsreiserfs -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMproj -21-12
+   : x86_64 CST Architecture
+2022 07:01:14 AMprojectm -22-02
+   : x86_64 CST Architecture
+2022 05:28:13 AMprotobuf -05-01
+   : x86_64 CST Architecture
+2022 05:54:47 AMprotobuf-c -30-01
+   : x86_64 CST Architecture
+2022 11:43:28 PMpsmisc -12-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMpugixml -21-12
+   : x86_64 CST Architecture
+2022 05:29:04 AMpulseaudio -05-01
+   : x86_64 CDT Architecture
+2022 02:06:04 AMpulseaudio-alsa -19-04
+   : x86_64 CST Architecture
+2022 04:35:15 PMpulseaudio-bluetooth -06-01
+   : x86_64 CDT Architecture
+2022 02:06:04 AMpurpose -19-04
+   : x86_64 CST Architecture
+2022 06:59:22 PMpv -14-02
+   : x86_64 CST Architecture
+2021 05:36:11 AMpwgen -21-12
+   : x86_64 CST Architecture
+2022 02:15:11 PMpython -29-01
+   : x86_64 CST Architecture
+2022 10:55:36 AMpython-anytree -26-01
+   : any CST Architecture
+2022 05:03:52 PMpython-appdirs -05-01
+   : any CST Architecture
+2022 05:11:21 AMpython-attrs -05-01
+   : any CDT Architecture
+2022 12:19:21 AMpython-beaker -15-03
+   : any CST Architecture
+2022 05:03:52 PMpython-beautifulsoup4 -05-01
+   : any CST Architecture
+2022 06:33:23 AMpython-cachecontrol -10-01
+   : any CST Architecture
+2022 09:18:27 PMpython-cairo -06-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMpython-certifi -21-12
+   : any CST Architecture
+2022 06:33:23 AMpython-cffi -10-01
+   : x86_64 CST Architecture
+2022 09:18:27 PMpython-chardet -06-01
+   : any CST Architecture
+2022 05:11:08 AMpython-colorama -05-01
+   : any CST Architecture
+2022 09:18:27 PMpython-contextlib2 -06-01
+   : any CST Architecture
+2022 09:18:27 PMpython-coverage -06-01
+   : x86_64 CST Architecture
+2022 05:38:18 AMpython-cryptography -05-01
+   : x86_64 CST Architecture
+2022 09:18:27 PMpython-defusedxml -06-01
+   : any CST Architecture
+2022 05:20:31 AMpython-distlib -05-01
+   : any CST Architecture
+2022 09:18:27 PMpython-distro -06-01
+   : any CST Architecture
+2022 05:11:21 AMpython-distutils-extra -05-01
+   : any CST Architecture
+2022 05:36:12 PMpython-dnspython -08-01
+   : any CST Architecture
+2022 10:55:40 AMpython-docopt -26-01
+   : any CDT Architecture
+2022 12:19:21 AMpython-ewmh -15-03
+   : any CST Architecture
+2022 05:39:15 AMpython-filelock -05-01
+   : any CDT Architecture
+2022 09:49:41 PMpython-future -16-03
+   : any CST Architecture
+2022 05:20:31 AMpython-gobject -05-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMpython-gpgme -21-12
+   : x86_64 CST Architecture
+2022 10:27:56 AMpython-html5lib -13-02
+   : any CST Architecture
+2022 09:18:27 PMpython-i3ipc -06-01
+   : any CST Architecture
+2022 05:15:17 AMpython-idna -05-01
+   : any CST Architecture
+2022 10:27:56 AMpython-importlib-metadata -13-02
+   : any CST Architecture
+2021 05:36:10 AMpython-jedi -21-12
+   : any CST Architecture
+2022 05:38:20 AMpython-jinja -05-01
+   : any CST Architecture
+2022 05:33:46 AMpython-lxml -05-01
+   : x86_64 CST Architecture
+2022 10:55:45 AMpython-mako -26-01
+   : any CST Architecture
+2022 05:03:52 PMpython-markdown -05-01
+   : any CST Architecture
+2021 05:36:10 AMpython-markupsafe -21-12
+   : x86_64 CST Architecture
+2022 05:33:46 AMpython-more-itertools -05-01
+   : any CST Architecture
+2022 05:11:21 AMpython-msgpack -05-01
+   : x86_64 CST Architecture
+2022 09:18:27 PMpython-mutagen -06-01
+   : any CST Architecture
+2022 04:28:55 PMpython-notify2 -06-01
+   : any CST Architecture
+2022 05:28:35 AMpython-numpy -05-01
+   : x86_64 CST Architecture
+2022 10:27:56 AMpython-ordered-set -13-02
+   : any CST Architecture
+2022 05:11:21 AMpython-packaging -05-01
+   : any CST Architecture
+2022 05:11:21 AMpython-parso -05-01
+   : any CST Architecture
+2022 05:38:20 AMpython-pep517 -05-01
+   : any CST Architecture
+2022 09:18:27 PMpython-pexpect -06-01
+   : any CST Architecture
+2022 05:36:12 PMpython-pillow -08-01
+   : x86_64 CST Architecture
+2022 10:27:56 AMpython-pip -13-02
+   : any CST Architecture
+2022 09:18:27 PMpython-platformdirs -06-01
+   : any CDT Architecture
+2022 09:49:41 PMpython-ply -16-03
+   : any CST Architecture
+2021 05:36:09 AMpython-progress -21-12
+   : any CST Architecture
+2022 09:18:27 PMpython-psutil -06-01
+   : x86_64 CST Architecture
+2022 05:13:37 AMpython-ptyprocess -05-01
+   : any CST Architecture
+2022 05:36:12 PMpython-pyaml -08-01
+   : any CST Architecture
+2022 11:31:24 PMpython-pybluez -25-02
+   : x86_64 CDT Architecture
+2022 05:37:39 PMpython-pycparser -30-03
+   : any CST Architecture
+2022 09:18:27 PMpython-pycryptodomex -06-01
+   : x86_64 CST Architecture
+2022 05:29:04 AMpython-pycups -05-01
+   : x86_64 CST Architecture
+2022 05:11:08 AMpython-pycurl -05-01
+   : x86_64 CST Architecture
+2022 05:11:08 AMpython-pygments -05-01
+   : any CST Architecture
+2022 04:35:15 PMpython-pyopenssl -06-01
+   : any CST Architecture
+2022 09:18:27 PMpython-pyparsing -06-01
+   : any CST Architecture
+2022 05:11:21 AMpython-pyqt5 -05-01
+   : x86_64 CST Architecture
+2022 10:27:56 AMpython-pyqt5-sip -13-02
+   : x86_64 CST Architecture
+2022 10:27:56 AMpython-pyqt5-webengine -13-02
+   : x86_64 CST Architecture
+2022 10:27:56 AMpython-pysocks -13-02
+   : any CST Architecture
+2022 05:33:48 AMpython-pyudev -05-01
+   : any CST Architecture
+2022 01:37:57 PMpython-pywal -06-02
+   : any CST Architecture
+2022 06:49:05 AMpython-pyxdg -22-02
+   : any CST Architecture
+2022 05:28:35 AMpython-pyzmq -05-01
+   : x86_64 CST Architecture
+2022 03:45:16 PMpython-requests -27-01
+   : any CST Architecture
+2022 06:59:22 PMpython-resolvelib -14-02
+   : any CST Architecture
+2022 09:18:27 PMpython-retrying -06-01
+   : any CST Architecture
+2022 09:18:27 PMpython-setuptools -06-01
+   : any CST Architecture
+2022 06:59:21 PMpython-simplejson -14-02
+   : x86_64 CST Architecture
+2022 05:29:04 AMpython-six -05-01
+   : any CST Architecture
+2022 05:11:21 AMpython-soupsieve -05-01
+   : any CST Architecture
+2022 06:33:23 AMpython-toml -10-01
+   : any CST Architecture
+2022 09:18:27 PMpython-tomli -06-01
+   : any CST Architecture
+2022 10:55:45 AMpython-ueberzug-git -26-01
+   : any CDT Architecture
+2022 12:19:31 AMpython-urllib3 -15-03
+   : any CST Architecture
+2022 10:55:45 AMpython-virtualenv -26-01
+   : any CDT Architecture
+2022 09:49:41 PMpython-webencodings -16-03
+   : any CST Architecture
+2022 09:18:27 PMpython-websockets -06-01
+   : x86_64 CST Architecture
+2022 04:28:55 PMpython-xlib -06-01
+   : any CST Architecture
+2022 05:15:17 AMpython-yaml -05-01
+   : x86_64 CST Architecture
+2022 05:33:46 AMpython-zipp -05-01
+   : any CST Architecture
+2022 10:55:40 AMpython2 -26-01
+   : x86_64 CST Architecture
+2022 12:33:18 AMpython2-dbus -30-01
+   : x86_64 CST Architecture
+2022 05:58:02 PMpython2-gobject2 -03-02
+   : x86_64 CST Architecture
+2022 05:57:37 PMpython3-yamale -03-02
+   : any CST Architecture
+2022 11:32:45 PMpython32 -25-02
+   : x86_64 CST Architecture
+2022 11:33:44 PMpython39 -25-02
+   : x86_64 CST Architecture
+2022 09:25:33 PMqca-qt5 -06-01
+   : x86_64 CST Architecture
+2022 10:27:37 AMqpdf -13-02
+   : x86_64 CST Architecture
+2022 06:59:22 PMqrencode -14-02
+   : x86_64 CST Architecture
+2022 10:27:36 AMqt5-base -13-02
+   : x86_64 CST Architecture
+2022 06:59:17 PMqt5-declarative -14-02
+   : x86_64 CST Architecture
+2022 10:27:31 AMqt5-graphicaleffects -13-02
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-location -30-01
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-multimedia -30-01
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-networkauth -30-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMqt5-quickcontrols -13-02
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-quickcontrols2 -30-01
+   : x86_64 CST Architecture
+2022 10:27:56 AMqt5-script -13-02
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-sensors -30-01
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-speech -30-01
+   : x86_64 CST Architecture
+2022 10:27:31 AMqt5-svg -13-02
+   : x86_64 CST Architecture
+2022 10:27:31 AMqt5-translations -13-02
+   : any CST Architecture
+2022 10:27:30 AMqt5-virtualkeyboard -13-02
+   : x86_64 CST Architecture
+2022 10:27:56 AMqt5-wayland -13-02
+   : x86_64 CST Architecture
+2022 10:27:31 AMqt5-webchannel -13-02
+   : x86_64 CST Architecture
+2022 05:54:48 AMqt5-webengine -30-01
+   : x86_64 CST Architecture
+2022 10:27:38 AMqt5-webkit -13-02
+   : x86_64 CST Architecture
+2022 03:45:16 PMqt5-x11extras -27-01
+   : x86_64 CST Architecture
+2022 10:27:31 AMqutebrowser -13-02
+   : any CST Architecture
+2022 05:33:46 AMr8168-dkms -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMradiotray -21-12
+   : any CST Architecture
+2022 04:35:15 PMragel -06-01
+   : x86_64 CST Architecture
+2022 05:38:03 AMranger -05-01
+   : any CST Architecture
+2022 05:38:25 AMrapidjson -05-01
+   : any CST Architecture
+2022 07:01:14 AMraptor -22-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMrasqal -05-01
+   : x86_64 CST Architecture
+2022 05:26:17 AMrate-mirrors-bin -05-01
+   : x86_64 CST Architecture
+2022 02:50:35 AMrav1e -09-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMre2 -05-01
+   : x86_64 CST Architecture
+2022 10:27:32 AMreadline -13-02
+   : x86_64 CST Architecture
+2022 10:27:24 AMredland -13-02
+   : x86_64 CST Architecture
+2022 05:26:17 AMredshift -05-01
+   : x86_64 CST Architecture
+2022 05:04:55 AMrefind -09-03
+   : any CST Architecture
+2021 05:36:11 AMreflector -21-12
+   : any CST Architecture
+2022 10:55:45 AMreiserfsprogs -26-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMrest -21-12
+   : x86_64 CST Architecture
+2022 10:55:36 AMrhash -26-01
+   : x86_64 CST Architecture
+2022 04:07:40 PMripgrep -11-01
+   : x86_64 CST Architecture
+2021 05:36:18 AMrlwrap -21-12
+   : x86_64 CST Architecture
+2022 06:11:56 AMrofi -16-01
+   : x86_64 CST Architecture
+2022 05:54:48 AMrofi-autorandr -30-01
+   : x86_64 CST Architecture
+2022 03:10:46 PMrofi-blocks-git -05-03
+   : any CST Architecture
+2022 10:56:23 PMrofi-greenclip -25-02
+   : x86_64 CST Architecture
+2022 04:36:33 PMrofi-pass -05-01
+   : any CST Architecture
+2022 02:15:11 PMrp-pppoe -29-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMrpcbind -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMrsync -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMrtkit -21-12
+   : x86_64 CST Architecture
+2022 05:09:38 AMrtmpdump -05-01
+   : x86_64 CST Architecture
+2022 04:47:12 PMrubberband -12-01
+   : x86_64 CST Architecture
+2022 08:47:46 AMruby -28-01
+   : x86_64 CST Architecture
+2022 05:38:20 AMruby-irb -05-01
+   : any CST Architecture
+2022 10:55:45 AMruby-reline -26-01
+   : any CST Architecture
+2022 10:55:45 AMrubygems -26-01
+   : any CST Architecture
+2022 10:55:45 AMrun-parts -26-01
+   : x86_64 CST Architecture
+2021 05:36:10 AMrunc -21-12
+   : x86_64 CST Architecture
+2022 10:55:46 AMrust -26-01
+   : x86_64 CST Architecture
+2022 11:41:28 AMrxvt-unicode -28-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMrxvt-unicode-terminfo -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMsamba -21-12
+   : x86_64 CST Architecture
+2022 10:27:57 AMsardi-icons -13-02
+   : any CST Architecture
+2022 10:27:59 AMsbc -13-02
+   : x86_64 CST Architecture
+2022 05:09:38 AMscreen -05-01
+   : x86_64 CST Architecture
+2022 10:28:00 AMscrot -13-02
+   : x86_64 CST Architecture
+2022 01:55:26 PMsddm -10-01
+   : x86_64 CST Architecture
+2022 10:28:00 AMsdl -13-02
+   : x86_64 CST Architecture
+2022 05:41:21 AMsdl2 -05-01
+   : x86_64 CST Architecture
+2022 04:47:05 PMsdparm -12-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMsed -21-12
+   : x86_64 CDT Architecture
+2022 03:18:21 AMserd -04-04
+   : x86_64 CST Architecture
+2022 05:12:33 AMsg3_utils -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMshaderc -21-12
+   : x86_64 CST Architecture
+2022 05:29:58 AMshadow -05-01
+   : x86_64 CST Architecture
+2022 10:27:28 AMshairplay -13-02
+   : x86_64 CST Architecture
+2022 05:29:04 AMshared-mime-info -05-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMshell-color-scripts -21-12
+   : x86_64 CST Architecture
+2022 04:54:22 PMsignon-kwallet-extension -05-01
+   : x86_64 CST Architecture
+2022 10:29:35 AMsignon-plugin-oauth2 -13-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMsignon-ui -13-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMsignond -13-02
+   : x86_64 CST Architecture
+2022 10:29:35 AMsimplicity-sddm-theme-git -13-02
+   : any CST Architecture
+2022 05:13:29 AMskypeforlinux-stable-bin -05-01
+   : x86_64 CST Architecture
+2022 01:43:00 AMslack-desktop -13-03
+   : x86_64 CST Architecture
+2022 05:23:30 AMslang -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMsmbclient -21-12
+   : x86_64 CST Architecture
+2022 10:27:56 AMsmplayer -13-02
+   : x86_64 CST Architecture
+2022 05:29:58 AMsnapper -05-01
+   : x86_64 CST Architecture
+2022 05:39:05 AMsnapper-rollback -05-01
+   : any CST Architecture
+2022 05:39:06 AMsnappy -05-01
+   : x86_64 CST Architecture
+2022 05:11:37 AMsof-firmware -05-01
+   : x86_64 CST Architecture
+2022 05:08:50 AMsolaar -05-01
+   : any CST Architecture
+2022 01:37:57 PMsolid -06-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMsonnet -14-02
+   : x86_64 CST Architecture
+2022 06:59:18 PMsord -14-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMsound-theme-freedesktop -05-01
+   : any CST Architecture
+2021 05:36:17 AMsoundtouch -21-12
+   : x86_64 CST Architecture
+2022 10:55:36 AMsource-highlight -26-01
+   : x86_64 CST Architecture
+2022 09:19:20 PMspandsp -06-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMspeex -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMspeexdsp -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMspirv-tools -21-12
+   : x86_64 CST Architecture
+2022 10:55:40 AMsqlite -26-01
+   : x86_64 CST Architecture
+2022 02:50:32 AMsqlitebrowser -09-01
+   : x86_64 CST Architecture
+2022 07:41:19 AMsquashfs-tools -09-03
+   : x86_64 CST Architecture
+2022 10:28:00 AMsratom -13-02
+   : x86_64 CST Architecture
+2022 05:12:33 AMsrt -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMsshfs -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMstartup-notification -21-12
+   : x86_64 CST Architecture
+2021 05:36:18 AMstoken -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMstrace -21-12
+   : x86_64 CST Architecture
+2022 07:24:00 PMsudo -27-01
+   : x86_64 CST Architecture
+2022 10:28:00 AMsuil -13-02
+   : x86_64 CST Architecture
+2022 05:28:04 AMsuitesparse -05-01
+   : x86_64 CST Architecture
+2022 05:37:52 AMsurfn-icons-git -05-01
+   : any CST Architecture
+2022 10:28:02 AMsurfn-mint-y-icons-git -13-02
+   : any CST Architecture
+2022 10:28:02 AMsurfraw -13-02
+   : any CST Architecture
+2022 06:44:25 PMsurfshark-vpn -08-01
+   : x86_64 CDT Architecture
+2022 11:15:18 PMsvt-av1 -31-03
+   : x86_64 CST Architecture
+2022 10:55:37 AMsvt-hevc -26-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMsweet-gtk-theme-dark -05-01
+   : any CST Architecture
+2022 05:35:32 AMswig -05-01
+   : x86_64 CST Architecture
+2022 07:47:27 PMsyndication -27-01
+   : x86_64 CST Architecture
+2022 06:59:18 PMsynergy -14-02
+   : x86_64 CST Architecture
+2022 02:21:30 PMsysfsutils -06-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMsyslinux -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMsystem-config-printer -21-12
+   : x86_64 CST Architecture
+2022 05:11:08 AMsystemd -05-01
+   : x86_64 CST Architecture
+2022 10:27:28 AMsystemd-libs -13-02
+   : x86_64 CST Architecture
+2022 10:27:27 AMsystemd-manager -13-02
+   : x86_64 CST Architecture
+2022 05:39:19 AMsystemd-sysvcompat -05-01
+   : x86_64 CST Architecture
+2022 10:28:02 AMsysz -13-02
+   : any CST Architecture
+2022 04:29:02 PMtaglib -06-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMtalloc -05-01
+   : x86_64 CST Architecture
+2021 05:36:09 AMtar -21-12
+   : x86_64 CST Architecture
+2021 05:36:08 AMtbb -21-12
+   : x86_64 CST Architecture
+2022 03:45:15 PMtcl -27-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMtcpdump -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMtdb -21-12
+   : x86_64 CST Architecture
+2022 10:27:31 AMteams-insiders -13-02
+   : x86_64 CST Architecture
+2022 09:53:56 AMterminus-font -28-01
+   : any CST Architecture
+2021 05:36:12 AMtestdisk -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMtevent -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMtexinfo -21-12
+   : x86_64 CST Architecture
+2021 05:36:09 AMthe_silver_searcher -21-12
+   : x86_64 CST Architecture
+2021 05:36:22 AMthin-provisioning-tools -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMthunderbird -21-12
+   : x86_64 CST Architecture
+2022 10:28:03 AMtinyxml -13-02
+   : x86_64 CST Architecture
+2022 05:29:04 AMtk -05-01
+   : x86_64 CST Architecture
+2022 11:32:08 PMtlp -25-02
+   : any CST Architecture
+2022 10:55:46 AMtmux -26-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMtor -21-12
+   : x86_64 CST Architecture
+2022 05:33:48 AMtor-browser -05-01
+   : x86_64 CST Architecture
+2022 10:28:03 AMtorbrowser-launcher -13-02
+   : any CST Architecture
+2022 05:33:48 AMtpm2-tss -05-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMtracker3 -21-12
+   : x86_64 CST Architecture
+2021 05:36:17 AMtransmission-qt -21-12
+   : x86_64 CST Architecture
+2022 10:28:03 AMtre -13-02
+   : x86_64 CST Architecture
+2022 12:04:20 AMtree -23-02
+   : x86_64 CST Architecture
+2022 10:55:46 AMtrilium-bin -26-01
+   : x86_64 CST Architecture
+2022 07:43:42 PMtslib -27-01
+   : x86_64 CST Architecture
+2021 05:36:22 AMttf-anonymous-pro -21-12
+   : any CDT Architecture
+2022 01:58:57 AMttf-bitstream-vera -18-04
+   : any CST Architecture
+2022 05:26:25 AMttf-caladea -05-01
+   : any CST Architecture
+2022 05:26:25 AMttf-carlito -05-01
+   : any CST Architecture
+2022 05:26:27 AMttf-cascadia-code -05-01
+   : any CST Architecture
+2022 05:26:28 AMttf-cormorant -05-01
+   : any CST Architecture
+2022 05:26:29 AMttf-croscore -05-01
+   : any CST Architecture
+2022 05:26:31 AMttf-dejavu -05-01
+   : any CST Architecture
+2021 05:36:18 AMttf-envy-code-r -21-12
+   : any CDT Architecture
+2022 02:02:01 AMttf-eurof -18-04
+   : any CST Architecture
+2022 05:26:32 AMttf-fantasque-sans-mono -05-01
+   : any CST Architecture
+2022 05:26:33 AMttf-fira-code -05-01
+   : any CST Architecture
+2022 05:26:34 AMttf-fira-mono -05-01
+   : any CST Architecture
+2022 05:26:35 AMttf-fira-sans -05-01
+   : any CST Architecture
+2022 05:26:39 AMttf-font-awesome -05-01
+   : any CST Architecture
+2022 10:28:03 AMttf-hack -13-02
+   : any CST Architecture
+2021 05:36:18 AMttf-hactor -21-12
+   : any CST Architecture
+2022 05:26:42 AMttf-hellvetica -05-01
+   : any CST Architecture
+2022 05:26:44 AMttf-ibm-plex -05-01
+   : any CST Architecture
+2022 10:27:33 AMttf-inconsolata -13-02
+   : any CDT Architecture
+2022 01:52:55 AMttf-jetbrains-mono -18-04
+   : any CST Architecture
+2022 05:26:58 AMttf-joypixels -05-01
+   : any CST Architecture
+2022 05:27:11 AMttf-lato -05-01
+   : any CST Architecture
+2022 05:27:24 AMttf-liberation -05-01
+   : any CST Architecture
+2022 05:27:25 AMttf-linux-libertine -05-01
+   : any CST Architecture
+2022 05:27:28 AMttf-linux-libertine-g -05-01
+   : any CST Architecture
+2022 05:27:38 AMttf-material-design-iconic-font -05-01
+   : any CST Architecture
+2022 06:56:55 PMttf-meslo-nerd-font-powerlevel10k -14-02
+   : any CST Architecture
+2022 05:27:41 AMttf-monofur -05-01
+   : any CST Architecture
+2022 05:27:42 AMttf-ms-fonts -05-01
+   : any CST Architecture
+2022 05:20:16 AMttf-opensans -05-01
+   : any CST Architecture
+2022 05:27:46 AMttf-proggy-clean -05-01
+   : any CST Architecture
+2022 05:27:47 AMttf-roboto -05-01
+   : any CST Architecture
+2022 05:27:49 AMttf-roboto-mono -05-01
+   : any CST Architecture
+2022 05:27:51 AMttf-ubuntu-font-family -05-01
+   : any CST Architecture
+2022 05:27:53 AMttf-weather-icons -05-01
+   : any CST Architecture
+2022 06:05:35 AMtumbler -15-02
+   : x86_64 CST Architecture
+2022 01:42:41 AMtwolame -07-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMtzdata -05-01
+   : x86_64 CST Architecture
+2021 05:36:07 AMuchardet -21-12
+   : x86_64 CST Architecture
+2022 05:29:58 AMudftools -05-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMudisks2 -21-12
+   : x86_64 CST Architecture
+2022 05:09:47 AMunittestpp -05-01
+   : x86_64 CST Architecture
+2022 07:47:27 PMunixodbc -27-01
+   : x86_64 CST Architecture
+2022 07:01:14 AMunzip -22-02
+   : x86_64 CST Architecture
+2022 10:41:33 AMupd72020x-fw -04-02
+   : any CST Architecture
+2021 05:36:13 AMupower -21-12
+   : x86_64 CST Architecture
+2022 10:27:31 AMurxvt-fullscreen -13-02
+   : any CST Architecture
+2021 05:36:22 AMurxvt-perls -21-12
+   : any CST Architecture
+2021 05:36:22 AMurxvt-resize-font-git -21-12
+   : any CST Architecture
+2021 05:36:22 AMusb_modeswitch -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMusbmuxd -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMusbutils -21-12
+   : x86_64 CST Architecture
+2022 04:47:12 PMutil-linux -12-01
+   : x86_64 CST Architecture
+2022 06:59:17 PMutil-linux-libs -14-02
+   : x86_64 CST Architecture
+2022 06:59:17 PMv4l-utils -14-02
+   : x86_64 CST Architecture
+2022 05:11:50 AMvala -05-01
+   : x86_64 CST Architecture
+2022 06:59:22 PMvalgrind -14-02
+   : x86_64 CST Architecture
+2022 11:32:08 PMvamp-plugin-sdk -25-02
+   : x86_64 CST Architecture
+2022 05:28:04 AMvid.stab -05-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMvifm -05-01
+   : x86_64 CDT Architecture
+2022 05:01:22 AMvim -16-03
+   : x86_64 CST Architecture
+2022 10:55:46 AMvim-airline -26-01
+   : any CST Architecture
+2022 05:38:18 AMvim-airline-themes -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-ale -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-align -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-ansible -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-bufexplorer -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-coverage-highlight -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-csound -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-ctrlp -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-easymotion -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-editorconfig -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-fugitive -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-gitgutter -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-grammalecte -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-indent-object -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-jad -05-01
+   : any CST Architecture
+2022 05:38:18 AMvim-jedi -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-latexsuite -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-molokai -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-nerdcommenter -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-nerdtree -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-pastie -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-runtime -05-01
+   : x86_64 CST Architecture
+2022 10:55:46 AMvim-seti -26-01
+   : any CST Architecture
+2022 05:38:20 AMvim-supertab -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-surround -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-syntastic -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-tabular -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-tagbar -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-ultisnips -05-01
+   : any CST Architecture
+2022 05:38:20 AMvim-vital -05-01
+   : any CST Architecture
+2022 05:38:18 AMvirtualbox -05-01
+   : x86_64 CST Architecture
+2022 10:28:03 AMvirtualbox-host-dkms -13-02
+   : x86_64 CST Architecture
+2022 10:28:03 AMvlc -13-02
+   : x86_64 CST Architecture
+2022 10:55:47 AMvmaf -26-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMvolume_key -05-01
+   : x86_64 CST Architecture
+2022 05:09:47 AMvpnc -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMvsqlite++ -21-12
+   : x86_64 CST Architecture
+2022 07:01:14 AMvte-common -22-02
+   : x86_64 CST Architecture
+2021 05:36:18 AMvte3 -21-12
+   : x86_64 CST Architecture
+2022 05:15:32 AMvtop -05-01
+   : any CST Architecture
+2022 05:20:31 AMvulkan-icd-loader -05-01
+   : x86_64 CST Architecture
+2022 10:55:36 AMvulkan-tools -26-01
+   : x86_64 CST Architecture
+2022 10:55:47 AMw3m -26-01
+   : x86_64 CST Architecture
+2022 05:15:13 AMwavpack -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMwayland -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMwayland-protocols -21-12
+   : any CST Architecture
+2022 05:54:48 AMwaylandpp -30-01
+   : x86_64 CST Architecture
+2022 05:29:04 AMwd719x-firmware -05-01
+   : any CST Architecture
+2021 05:36:13 AMwebkit2gtk -21-12
+   : x86_64 CST Architecture
+2022 10:27:30 AMwebrtc-audio-processing -13-02
+   : x86_64 CST Architecture
+2022 05:09:38 AMwget -05-01
+   : x86_64 CST Architecture
+2021 05:36:13 AMwhich -21-12
+   : x86_64 CST Architecture
+2021 05:36:11 AMwildmidi -21-12
+   : x86_64 CST Architecture
+2022 05:12:33 AMwindowmaker -05-01
+   : x86_64 CDT Architecture
+2022 03:20:50 AMwine -04-04
+   : x86_64 CST Architecture
+2022 10:28:04 AMwireless-regdb -13-02
+   : any CST Architecture
+2021 05:36:10 AMwireless_tools -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMwireshark-cli -21-12
+   : x86_64 CST Architecture
+2022 10:28:05 AMwireshark-qt -13-02
+   : x86_64 CST Architecture
+2022 10:28:05 AMwmctrl -13-02
+   : x86_64 CST Architecture
+2021 05:36:22 AMwoff2 -21-12
+   : x86_64 CST Architecture
+2022 05:20:15 AMwordnet-cli -05-01
+   : x86_64 CST Architecture
+2022 05:45:04 AMwordnet-common -07-03
+   : x86_64 CST Architecture
+2022 05:44:23 AMwords -07-03
+   : any CST Architecture
+2022 06:06:24 AMwp-cli -07-03
+   : any CDT Architecture
+2022 08:49:38 AMwpa_supplicant -20-03
+   : x86_64 CST Architecture
+2022 06:59:22 PMwpebackend-fdo -14-02
+   : x86_64 CST Architecture
+2022 05:20:15 AMwvdial -05-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMwvstreams -21-12
+   : x86_64 CST Architecture
+2021 05:36:12 AMwxgtk-common -21-12
+   : x86_64 CST Architecture
+2022 05:28:04 AMwxgtk3 -05-01
+   : x86_64 CST Architecture
+2022 05:28:04 AMx264 -05-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMx265 -05-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMxarchiver -05-01
+   : x86_64 CST Architecture
+2022 02:50:35 AMxcb-proto -09-01
+   : any CST Architecture
+2021 05:36:13 AMxcb-util -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxcb-util-cursor -21-12
+   : x86_64 CST Architecture
+2022 05:15:21 AMxcb-util-image -05-01
+   : x86_64 CST Architecture
+2021 05:36:22 AMxcb-util-keysyms -21-12
+   : x86_64 CST Architecture
+2021 05:36:22 AMxcb-util-renderutil -21-12
+   : x86_64 CST Architecture
+2021 05:36:22 AMxcb-util-wm -21-12
+   : x86_64 CST Architecture
+2021 05:36:22 AMxcb-util-xrm -21-12
+   : x86_64 CST Architecture
+2022 05:13:37 AMxclip -05-01
+   : x86_64 CST Architecture
+2022 02:15:11 PMxdg-dbus-proxy -29-01
+   : x86_64 CST Architecture
+2022 10:27:29 AMxdg-user-dirs -13-02
+   : x86_64 CST Architecture
+2021 05:36:17 AMxdg-utils -21-12
+   : any CST Architecture
+2021 05:36:22 AMxdo-git -21-12
+   : x86_64 CST Architecture
+2022 07:33:11 AMxdotool -10-01
+   : x86_64 CST Architecture
+2022 12:40:36 PMxf86-input-elographics -14-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-input-evdev -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-input-libinput -21-12
+   : x86_64 CST Architecture
+2022 10:55:47 AMxf86-input-vmmouse -26-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-input-void -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-video-amdgpu -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-video-ati -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-video-fbdev -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-video-intel -21-12
+   : x86_64 CST Architecture
+2022 05:09:35 AMxf86-video-nouveau -05-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-video-openchrome -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxf86-video-sisusb -21-12
+   : x86_64 CST Architecture
+2022 09:00:38 PMxf86-video-vesa -29-01
+   : x86_64 CST Architecture
+2021 05:36:16 AMxfce4-notifyd -21-12
+   : x86_64 CST Architecture
+2022 10:28:05 AMxfce4-power-manager -13-02
+   : x86_64 CST Architecture
+2022 03:07:55 PMxfce4-terminal -12-01
+   : x86_64 CST Architecture
+2022 05:15:32 AMxfconf -05-01
+   : x86_64 CST Architecture
+2022 05:15:29 AMxflux -05-01
+   : x86_64 CST Architecture
+2022 05:43:59 AMxfsprogs -15-01
+   : x86_64 CST Architecture
+2021 05:36:12 AMxkeyboard-config -21-12
+   : any CST Architecture
+2022 10:27:27 AMxl2tpd -13-02
+   : x86_64 CST Architecture
+2022 10:55:47 AMxmlsec -26-01
+   : x86_64 CST Architecture
+2022 05:11:37 AMxorg-bdftopcf -05-01
+   : x86_64 CST Architecture
+2021 05:36:14 AMxorg-font-util -21-12
+   : x86_64 CST Architecture
+2022 03:09:09 PMxorg-fonts-encodings -14-02
+   : any CST Architecture
+2021 05:36:13 AMxorg-iceauth -21-12
+   : x86_64 CST Architecture
+2021 05:36:14 AMxorg-mkfontscale -21-12
+   : x86_64 CST Architecture
+2021 05:36:14 AMxorg-server -21-12
+   : x86_64 CST Architecture
+2022 10:27:28 AMxorg-server-common -13-02
+   : x86_64 CST Architecture
+2022 10:27:28 AMxorg-sessreg -13-02
+   : x86_64 CST Architecture
+2021 05:36:14 AMxorg-setxkbmap -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMxorg-smproxy -21-12
+   : x86_64 CST Architecture
+2021 05:36:14 AMxorg-x11perf -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xauth -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xbacklight -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xcmsdb -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xcursorgen -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xdpyinfo -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xdriinfo -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xev -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xgamma -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xhost -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xinit -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xinput -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xkbcomp -21-12
+   : x86_64 CST Architecture
+2021 05:36:13 AMxorg-xkbevd -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xkbutils -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xkill -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xlsatoms -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xlsclients -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xmessage -21-12
+   : x86_64 CDT Architecture
+2022 04:10:34 PMxorg-xmodmap -08-04
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xpr -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xprop -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xrandr -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xrdb -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xrefresh -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xset -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xsetroot -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xvinfo -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xwd -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xwininfo -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorg-xwud -21-12
+   : x86_64 CST Architecture
+2021 05:36:16 AMxorgproto -21-12
+   : any CST Architecture
+2021 05:36:13 AMxplc -21-12
+   : x86_64 CST Architecture
+2022 10:28:05 AMxsel -13-02
+   : x86_64 CST Architecture
+2022 10:55:47 AMxvidcore -26-01
+   : x86_64 CST Architecture
+2022 05:12:32 AMxxhash -05-01
+   : x86_64 CST Architecture
+2021 05:36:11 AMxz -21-12
+   : x86_64 CST Architecture
+2021 05:36:07 AMyad -21-12
+   : x86_64 CST Architecture
+2022 10:27:30 AMyajl -13-02
+   : x86_64 CST Architecture
+2022 05:15:21 AMyarn -05-01
+   : any CST Architecture
+2022 06:44:06 AMyay-bin -11-03
+   : x86_64 CST Architecture
+2022 10:28:05 AMyoutube-dl -13-02
+   : any CST Architecture
+2022 09:44:47 AMzafiro-icon-theme -27-01
+   : any CST Architecture
+2022 05:37:31 AMzbar -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMzenity -05-01
+   : x86_64 CST Architecture
+2022 05:20:15 AMzeromq -05-01
+   : x86_64 CST Architecture
+2021 05:36:17 AMzimg -21-12
+   : x86_64 CST Architecture
+2022 05:12:32 AMzita-alsa-pcmi -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMzita-resampler -05-01
+   : x86_64 CST Architecture
+2022 05:11:50 AMzlib -05-01
+   : x86_64 CST Architecture
+2022 05:08:47 AMzsh -05-01
+   : x86_64 CST Architecture
+2022 10:27:30 AMzsh-autosuggestions -13-02
+   : any CST Architecture
+2022 03:46:33 PMzsh-completions -06-01
+   : any CST Architecture
+2022 05:41:34 AMzsh-syntax-highlighting -05-01
+   : any CST Architecture
+2022 05:41:35 AMzsh-theme-powerlevel10k-git -05-01
+   : x86_64 CST Architecture
+2022 10:55:48 AMzsh-z-git -26-01
+   : any CST Architecture
+2022 03:50:43 PMzstd -06-01
+   : x86_64 CST Architecture
+2022 05:54:46 AMzvbi -30-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMzxing-cpp -05-01
+   : x86_64 CST Architecture
+2022 05:12:33 AMzziplib -05-01
+Architecture    : x86_64
