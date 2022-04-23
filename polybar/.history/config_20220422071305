@@ -1,0 +1,333 @@
+[fontsize]
+workspace = 14
+icons = 10
+
+[workspace]
+fontsize = 14
+padding = 1
+
+;---------------------------------------
+;	COLORS
+;---------------------------------------
+	
+[colors]
+black = #000000
+gunmetal = #2a3439
+pink = #cd0898  
+darkgray = #4f504e
+red = #f25c5a
+green = #3FFF00
+greenyellow = #D0FF
+teal = #00f3c9
+darkteal = #274754
+paleteal = #70c2b4 
+lightpaleteal = #b3dbbf
+yellowgreen = #D0FF14
+lightyellow = #f3c900 
+paleyellow = #ffe066
+orange = #ff8a00
+orange-400 = #ff9f1a
+tan = #ebdbb2
+darkbrown = ##483C32
+palebrown = #
+
+darkgray2 = #4f504e
+hotred = #f25c
+coolred = #f25c5a
+
+primary = ${colors.orange}
+secondary = ${colors.blue}
+foreground-light = ${colors.tan}
+foreground-dark = ${colors.gunmetal}
+
+transparent = #00000000
+
+
+
+;---------------------------------------
+;	PADDINGS
+;---------------------------------------
+
+[paddings]
+inner = 2
+outer = 2
+power = 1
+
+;---------------------------------------
+;	Custom Bar
+;---------------------------------------
+
+[bar/custom]
+monitor = ${env:MONITOR:}
+;bottom = true
+fixed-center = true
+width = 100% 
+height = 2%
+dpi = 134
+
+tray-position = right
+tray-maxsize = 32
+tray-background = ${colors.tritrary}
+tray-padding = 4
+
+background = ${colors.gunmetal}
+foreground = ${colors.text-light}
+
+font-0 = JetBrains Mono:size=8;2
+font-1 = Font Awesome 6 Free Regular:size=8;2
+font-2 = UbuntuMono Nerd Font:style=Regular:size=10;2
+font-3 = Weather Icons:size=10;4
+
+modules-left = i3
+modules-center = mpdm
+modules-right =  openweathermap-simple pulseaudio datetime updates-pacman-aurhelper battery-combined
+
+cursor-click = pointer 
+cursor-scroll = ns-resize
+
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = true
+pin-workspaces = true
+foreground = ${colors.foreground-dark}
+
+; ws-icon-[0-9]+ = <label>;<icon>
+; NOTE: The <label> needs to match the name of the i3 workspace
+; Neither <label> nor <icon> can contain a semicolon (;)
+strip-wsnumbers = true
+
+; NOTE: You cannot skip icons, e.g. to get a ws-icon-6
+; you must also define a ws-icon-5.
+; NOTE: Icon will be available as the %icon% token inside label-*
+
+
+; Only show  on the same output as the bar
+worksprimarypaces = true
+
+label-mode-padding = ${workspace.padding}
+label-mode-foreground = ${colors.foreground-dark}
+label-mode-background = ${coors.}
+
+; focused = Active workspace on focused monitor
+label-focused = %name%
+label-focused-foreground = ${colors.foreground-dark}
+label-focused-background = ${colors.primary}
+label-focused-padding = ${workspace.padding}
+
+; unfocused = Inactive workspace on any
+label-unfocused = %name%
+label-unfocused-padding = 2
+label-unfocused-foreground = ${colors.white}
+label-unfocused-background =  #313131
+
+; visible = Active workspace on unfocused monitor
+label-visible = %name%
+label-visible-background = #313131
+label-visible-foreground = ${colors.white}
+label-visible-padding = 2
+
+; urgent = Workspace with urgency hint set
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+[module/network-localip]
+type = custom/script
+exec = ~/.config/polybar/scripts/network-localip/network-localip.sh
+interval = 60
+format-padding = 1 
+
+[module/openweathermap-simple]
+type = custom/script
+exec = ~/.config/polybar/scripts/openweathermap-simple/openweathermap-simple.sh
+interval = 600
+label-font = 4
+format-padding = 2
+
+[module/battery-combined]
+type = custom/script
+exec = /home/sd/.config/polybar/scripts/battery-combined-shell/battery-combined-shell.sh
+interval = 10
+
+[module/info-ssh-sessions]
+type = custom/script
+exec = /home/sd/.config/polybar/scripts/info-ssh-sessions/info-ssh-sessions.sh
+interval = 5
+
+;---------------------------------------
+;	UPDATES MODULE
+;---------------------------------------
+
+[module/datetime]
+type = internal/date
+interval = 1.0
+date = ""
+time = " %H:%M:%S"
+date-alt = %m-%d-%Y
+time-alt = %H:%M:%S
+label = %date% %time%
+format-margin = 1
+
+
+;---------------------------------------
+;	UPDATES MODULE
+;---------------------------------------
+
+[module/updates]
+type = custom/script
+label =  
+exec = /home/sd/.config/polybar/scripts/updates-arch-combined/updates-arch-combined.sh
+interval = 600
+format-padding = ${paddings.outer}
+format-background = ${colors.nord0}
+
+;---------------------------------------
+;	ETHERNET MODULE
+;---------------------------------------
+
+[module/eth]
+type = internal/network
+interface = enp58s0u1u4
+interval = 1
+
+format-connected-background = ${colors.nord2}
+format-connected-padding = ${paddings.inner}
+label-connected = %{A1:networkmanager_dmenu:}󰈀   %downspeed:8%   %upspeed:8%%{A}
+
+;---------------------------------------
+;	WI-FI MODULE
+;---------------------------------------
+
+[module/wlan]
+type = internal/network
+interface = wlo1
+interval = 1
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-background = ${colors.nord2}
+ramp-signal-0 = 󰤯
+ramp-signal-1 = 󰤟
+ramp-signal-2 = 󰤢
+ramp-signal-3 = 󰤥
+ramp-signal-4 = 󰤨
+ramp-signal-padding-left = ${paddings.outer}
+
+format-disconnected = <label-disconnected>
+format-disconnected-background = ${colors.nord2}
+
+format-packetloss = <animation-packetloss> <label-connected>
+format-packetloss-background = ${colors.nord2}
+animation-packetloss-0 = 󰤫
+animation-packetloss-0-foreground = ${colors.yellow}
+animation-packetloss-1 = 󰤠
+animation-packetloss-1-foreground = ${colors.yellow}
+animation-packetloss-2 = 󰤣
+animation-packetloss-2-foreground = ${colors.yellow}
+animation-packetloss-3 = 󰤦
+animation-packetloss-3-foreground = ${colors.yellow}
+animation-packetloss-4 = 󰤨
+animation-packetloss-4-foreground = ${colors.yellow}
+animation-packetloss-framerate = 500
+
+label-connected = %{A1:networkmanager_dmenu:}%signal%%   %downspeed:8%   %upspeed:8%%{A}
+label-connected-padding-right = ${paddings.inner}
+label-disconnected = %{A1:networkmanager_dmenu:}󰤭%{A}
+label-disconnected-padding-left = ${paddings.outer}
+label-disconnected-padding-right = ${paddings.inner}
+
+;---------------------------------------
+;	TEMPERATURE MODULE
+;---------------------------------------
+
+[module/temperature]
+type = internal/temperature
+interval = 0.5
+thermal-zone = 10
+warn-temperature = 70
+
+format = <label>
+format-background = ${colors.nord3}
+label =  %temperature-c:2%
+label-padding-left = ${paddings.inner}
+label-padding-right = ${paddings.outer}
+
+format-warn = <label-warn>
+format-warn-background = ${colors.nord3}
+label-warn =  %temperature-c:2%
+label-warn-foreground = ${colors.nord12}
+label-warn-padding-left = ${paddings.inner}
+label-warn-padding-right = ${paddings.outer}
+
+;---------------------------------------
+;	CPU MODULE
+;---------------------------------------
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+
+format = <label>
+format-background = ${colors.nord3}
+format-padding = ${paddings.inner}
+label = 󰓅 %percentage:2%%
+
+;---------------------------------------
+;	RAM MODULE
+;---------------------------------------
+
+[module/memory]
+type = internal/memory
+interval = 0.5
+
+format = <label>
+format-background = ${colors.nord3}
+label = 󰍛 %percentage_used:2%%
+label-padding-left = ${paddings.outer}
+label-padding-right = ${paddings.inner}
+
+;---------------------------------------
+;	PULSEAUDIO MODULE
+;---------------------------------------
+
+[module/pulseaudio]
+type = internal/pulseaudio
+interval = 5
+sink = alsa_output.pci-0000_00_1f.3.analog-stereo
+use-ui-max = true
+format-padding = 2
+
+label-muted =  muted
+
+format-volume = <ramp-volume> <label-volume>
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+label-volume = %percentage%%
+
+;---------------------------------------
+;	PLAYER MPRIS MODULE
+;---------------------------------------
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song> <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+;---------------------------------------
+;	SETTINGS
+;---------------------------------------
+
+[settings]
+screenchange-reload = true
+pseudo-transparency = true
