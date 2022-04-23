@@ -13,3 +13,5 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.tmux.conf: tmux
+    ~/.Xmodmap: Xmodmap
+    ~/.Xresources: Xresources
