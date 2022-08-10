@@ -8,7 +8,7 @@ Xft.dpi: 96
 
 ! general settings
 URxvt.saveLines:        50000
-
+    
 URxvt.termName:         xterm-256color
 URxvt.urgentOnBell:     false
 URxvt.visualBell:       false
@@ -16,13 +16,12 @@ URxvt.iso14755:         false
 URxvt.iso14755_52:      false
 URxvt.meta8:            false
 URxvt.metaSendsEscape:  true
-URxvt.iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
 URxvt.urlLauncher:      firefox
 URxvt.underlineURLs:    true
 URxvt.urlButton:        1
 
 ! appearance
-URxvt.geometry: 		1000x30
+URxvt.geometry: 		80x40
 URxvt.depth:             32
 !URxvt.transparent:      true
 URxvt.shading:           80
@@ -95,12 +94,11 @@ URxvt.background:   [80]#222222
 !!! copy/paste colorcodes in
 
 ! fonts
-URxvt.letterSpace: 	    		  0
-URxvt.font:                 	xft:JetBrains Mono:regular:size=12
-URxvt.imFont:               	xft:JetBrains Mono:regular:size=12
-URxvt.italicFont:           	xft:JetBrains Mono:italic:size=12
-URxvt.boldFont:             	xft:JetBrains Mono:bold:size=12
-URxvt.boldItalicFont:     		xft:JetBrains Mono:regular:size=12
+URxvt.letterSpace: 	    		-1
+URxvt.font:                 	xft:Cascadia Mono:light:size=10
+URxvt.italicFont:           	xft:Cascadia Mono:italic:size=10
+URxvt.boldFont:             	xft:Cascadia Mono:bold:size=10
+URxvt.boldItalicFont:     		xft:Cascadia Mono:regular:size=10
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions

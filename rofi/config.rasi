@@ -1,4 +1,4 @@
-configuration {
+    configuration {
 modi: "window,filebrowser,run,drun,ssh";
 /*  width: 50;*/
 /*  lines: 15;*/

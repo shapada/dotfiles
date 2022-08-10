@@ -1,3 +1,7 @@
+dockssh () {
+  docker exec -it "$1" /bin/sh
+}
+
 extract () {
     if [ -f $1 ] ; then
         case $1 in
@@ -109,4 +113,245 @@ function fzf-cd() {
 gdiff() {
   preview="git diff $@ --color=always -- {-1}"
   git diff $@ --name-only | fzf -m --ansi --preview $preview
+}
+
+dockssh () {
+  docker exec -it "$1" /bin/sh
+}
+
+extract () {
+    if [ -f $1 ] ; then
+        case $1 in
+            *.tar.bz2)        tar xjf $1        ;;
+            *.tar.gz)         tar xzf $1        ;;
+            *.bz2)            bunzip2 $1        ;;
+            *.rar)            unrar x $1        ;;
+            *.gz)             gunzip $1         ;;
+            *.tar)            tar xf $1         ;;
+            *.tbz2)           tar xjf $1        ;;
+            *.tgz)            tar xzf $1        ;;
+            *.zip)            unzip $1          ;;
+            *.Z)              uncompress $1     ;;
+            *.7z)             7zr e $1          ;;
+            *)                echo "'$1' cannot be extracted via extract()" ;;
+        esac
+    else
+        echo "'$1' is not a valid file"
+    fi
+}
+
+dls () {
+ # directory LS
+ echo 'ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"'
+}
+
+dgrep() {
+    # A recursive, case-insensitive grep that excludes binary files
+    grep -iR "$@" * | grep -v "Binary"
+}
+ 
+dfgrep() {
+    # A recursive, case-insensitive grep that excludes binary files
+    # and returns only unique filenames
+    grep -iR "$@" * | grep -v "Binary" | sed 's/:/ /g' | awk '{ print $1 }' | sort | uniq
+}
+
+psgrep() {
+    if [ ! -z $1 ] ; then
+        echo "Grepping for processes matching $1..."
+        ps aux | grep $1 | grep -v grep
+    else
+        echo "!! Need name to grep for"
+    fi
+}
+
+mcd () {
+    mkdir -p "$@" && cd "$@"
+}
+
+mkalias() {
+    ALIASES=$HOME/.aliases
+    echo "alias $1=\"${@:2}\"" >> $ALIASES && source $ALIASES 
+}
+
+cp_sshkey() { 
+    cat $0 | ssh $1 'cat >> .ssh/authorized_keys'
+}
+
+gman() {
+	man $1 | grep ${@:2}
+}
+
+fzf-surfraw() { surfraw "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)" ;}
+# Man without options will use fzf to select a page
+function fzf-man(){
+	MAN="/usr/bin/man"
+	if [ -n "$1" ]; then
+		$MAN "$@"
+		return $?
+	else
+		$MAN -k . | fzf --reverse --preview="echo {1,2} | sed 's/ (/./' | sed -E 's/\)\s*$//' | xargs $MAN" | awk '{print $1 "." $2}' | tr -d '()' | xargs -r $MAN
+		return $?
+	fi
+}
+
+function fzf-eval(){
+echo | fzf -q "$*" --preview-window=up:99% --preview="eval {q}"
+}
+
+function fzf-find-files(){
+  local file=$(fzf --multi --reverse) #get file from fzf
+  if [[ $file ]]; then
+    for prog in $(echo $file); #open all the selected files
+    do; $EDITOR $prog; done;
+  else
+    echo "cancelled fzf"
+  fi
+}
+
+function fzf-kill-processes() {
+  local pid
+  pid=$(ps -ef | sed 1d | fzf -m | awk '{print $2}')
+
+  if [ "x$pid" != "x" ]
+  then
+    echo $pid | xargs kill -${1:-9}
+  fi
+}
+
+function fzf-cd() {
+  local dir
+  dir=$(find ${1:-.} -path '*/\.*' -prune \
+                  -o -type d -print 2> /dev/null | fzf +m) &&
+  cd "$dir"
+  ls
+}
+
+gdiff() {
+  preview="git diff $@ --color=always -- {-1}"
+  git diff $@ --name-only | fzf -m --ansi --preview $preview
+}
+
+dockssh () {
+  docker exec -it "$1" /bin/sh
+}
+
+extract () {
+    if [ -f $1 ] ; then
+        case $1 in
+            *.tar.bz2)        tar xjf $1        ;;
+            *.tar.gz)         tar xzf $1        ;;
+            *.bz2)            bunzip2 $1        ;;
+            *.rar)            unrar x $1        ;;
+            *.gz)             gunzip $1         ;;
+            *.tar)            tar xf $1         ;;
+            *.tbz2)           tar xjf $1        ;;
+            *.tgz)            tar xzf $1        ;;
+            *.zip)            unzip $1          ;;
+            *.Z)              uncompress $1     ;;
+            *.7z)             7zr e $1          ;;
+            *)                echo "'$1' cannot be extracted via extract()" ;;
+        esac
+    else
+        echo "'$1' is not a valid file"
+    fi
+}
+
+dls () {
+ # directory LS
+ echo 'ls -l | grep "^d" | awk '{ print $9 }' | tr -d "/"'
+}
+
+dgrep() {
+    # A recursive, case-insensitive grep that excludes binary files
+    grep -iR "$@" * | grep -v "Binary"
+}
+ 
+dfgrep() {
+    # A recursive, case-insensitive grep that excludes binary files
+    # and returns only unique filenames
+    grep -iR "$@" * | grep -v "Binary" | sed 's/:/ /g' | awk '{ print $1 }' | sort | uniq
+}
+
+psgrep() {
+    if [ ! -z $1 ] ; then
+        echo "Grepping for processes matching $1..."
+        ps aux | grep $1 | grep -v grep
+    else
+        echo "!! Need name to grep for"
+    fi
+}
+
+mcd () {
+    mkdir -p "$@" && cd "$@"
+}
+
+mkalias() {
+    ALIASES=$HOME/.aliases
+    echo "alias $1=\"${@:2}\"" >> $ALIASES && source $ALIASES 
+}
+
+cp_sshkey() { 
+    cat $0 | ssh $1 'cat >> .ssh/authorized_keys'
+}
+
+gman() {
+	man $1 | grep ${@:2}
+}
+
+fzf-surfraw() { surfraw "$(cat ~/.config/surfraw/bookmarks | sed '/^$/d' | sort -n | fzf -e)" ;}
+# Man without options will use fzf to select a page
+function fzf-man(){
+	MAN="/usr/bin/man"
+	if [ -n "$1" ]; then
+		$MAN "$@"
+		return $?
+	else
+		$MAN -k . | fzf --reverse --preview="echo {1,2} | sed 's/ (/./' | sed -E 's/\)\s*$//' | xargs $MAN" | awk '{print $1 "." $2}' | tr -d '()' | xargs -r $MAN
+		return $?
+	fi
+}
+
+function fzf-eval(){
+echo | fzf -q "$*" --preview-window=up:99% --preview="eval {q}"
+}
+
+function fzf-find-files(){
+  local file=$(fzf --multi --reverse) #get file from fzf
+  if [[ $file ]]; then
+    for prog in $(echo $file); #open all the selected files
+    do; $EDITOR $prog; done;
+  else
+    echo "cancelled fzf"
+  fi
+}
+
+function fzf-kill-processes() {
+  local pid
+  pid=$(ps -ef | sed 1d | fzf -m | awk '{print $2}')
+
+  if [ "x$pid" != "x" ]
+  then
+    echo $pid | xargs kill -${1:-9}
+  fi
+}
+
+function fzf-cd() {
+  local dir
+  dir=$(find ${1:-.} -path '*/\.*' -prune \
+                  -o -type d -print 2> /dev/null | fzf +m) &&
+  cd "$dir"
+  ls
+}
+
+gdiff() {
+  preview="git diff $@ --color=always -- {-1}"
+  git diff $@ --name-only | fzf -m --ansi --preview $preview
+}
+cht() {
+  cht.sh "$@"
+}
+
+testfont() {
+    printf '\e]710;%s\007' "xft:${@}:pixelsize=12"
 }
