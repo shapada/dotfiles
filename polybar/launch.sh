@@ -8,6 +8,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 for m in $(polybar --list-monitors | cut -d":" -f1); do
     MONITOR=$m polybar --reload custom &
+    MONITOR=$m polybar --reload bottom &
 done
 # Launch polybar
   # MONITOR=eDP1 polybar -r custom &

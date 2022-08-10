@@ -5,17 +5,17 @@ set $modAlt Mod1
 set $modCap Mod3
 set $modSuper Mod4
 
-set $scripts /home/sd/local/development/linux/scripts
+set $scripts /home/sd/local/development/scripts
 
 #############################w
 ### base settings ###
 #############################
 
 # Set inner/outer gaps
-gaps inner 15
-gaps outer 0
-new_window pixel 1
-new_float normal
+gaps inner 5
+gaps outer 5
+default_border pixel 2
+default_floating_border normal
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -23,14 +23,18 @@ new_float normal
 # gaps outer all plus 5
 # Smart gaps (gaps used if only more than one container on the workspace)
 smart_gaps on
-
+ 
 # Smart borders (draw borders around container only if it is not the only container on this workspace)
 # on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
 smart_borders on
 
+focus_on_window_activation focus
+
 floating_modifier $modAlt
 
-font xft:URWGothic-Book 14
+font pango:DejaVu Sans Mono 10
+font pango:DejaVu Sans Mono, Terminus Bold Semi-Condensed 11
+font pango:Terminus 11px
 
 set $ws0 0
 set $ws1 1
@@ -43,25 +47,32 @@ set $ws7 7
 set $ws8 8
 set $ws9 9
 
-set $wkspTerminal ""
+#set $wkspTerminal "T"
+set $wkspTerminal ""
 set $wkspFirefox ""
 set $wkspChromium ""
 set $wkspCode ""
 set $wkspFiles ""                                                                            
 set $wkspEmail "🖂"
 set $wkspObs "" 
-set $wkspMysqlWorkbench "" 
-set $wkspSlack "" 
+set $wkspMysqlWorkbench "" 
+set $wkspSlack ""
+set $wkspTerminal ""
 
 assign [class="Chromium"] $wkspChromium
 assign [class="firefox"] $wkspFirefox
 assign [class="Firefox"] $wkspFirefox
-assign [class="Code"] $wkspCode
 assign [class="Pcmanfm"] $wkspFiles
 assign [class="Thunderbird"] $wkspEmail
 assign [class="obs"] $wkspObs
 assign [class="Mysql-workbench-bin"] $wkspMysqlWorkbench
-assign [class="URxvt"] $wkspTerminal
+assign [class="kitty"] $wkspTerminal
+assign [class="Slack"] $wkspSlack
+
+assign [class="(?i)code-oss"] $wkspCode
+assign [class="(?i)code"] $wkspCode
+for_window [class="(?i)code-oss"] focus
+for_window [class="(?i)code"] focus
 
 for_window [instance="ranger"] floating enable, sticky enable
 for_window [instance="ranger"] focus
@@ -75,13 +86,12 @@ for_window [class="Arandr"] floating enable, focus
 for_window [instance="blueberry.py"] floating enable
 for_window [title="i3-get-window-criteria"] floating enable
 
-for_window [instance="arandr"] floating enable, resize set 200 300
+for_window [instance="arandr"] floating enable
 
-for_window [class="Chromium"] focus
-for_window [class="Code"] focus
+for_window [class="(?i)chromium"] focus
 for_window [class="Subl"] focus
 for_window [class="Thunderbird$"] focus
-for_window [class="Firefox"] focus
+for_window [class="(?i)firefox"] focus
 for_window [class="Pcmanfm"] focus
 for_window [class="Slack"] floating enable, focus
 for_window [class="obs"] focus
@@ -97,37 +107,35 @@ for_window [class="Qtconfig-qt4"] floating enable sticky enable border normal
 for_window [class="Simple-scan"] floating enable border normal
 for_window [class="(?i)virtualbox"] floating enable border normal
 for_window [instance="pamac-vim"] floating enable border normal
+for_window [title="^nagbar*"] floating enable  border normal, move scratchpad, scratchpad show
+for_window [title="__text_scratchpad"] floating enable  border normal, move scratchpad, scratchpad show
+for_window [title="unzip"] floating enable  border normal, move scratchpad, scratchpad show
 
 # change focus
-bindsym $modSuper+h focus left
-bindsym $modSuper+j focus down
-bindsym $modSuper+k focus up
-bindsym $modSuper+l focus right
+# bindsym $modSuper+h focus left
+# bindsym $modSuper+j focus down
+# bindsym $modSuper+k focus up
+# bindsym $modSuper+l focus right
 
-bindsym $modSuper+Left focus left
-bindsym $modSuper+Down focus down
-bindsym $modSuper+Up focus up
-bindsym $modSuper+Right focus right
+bindsym $modCap+Left focus left
+bindsym $modCap+Right focus down
+bindsym $modCap+Up focus up
+bindsym $modCap+Down focus right
 
-bindsym $modSuper+Shift+h move left
-bindsym $modSuper+Shift+j move down
-bindsym $modSuper+Shift+k move up
-bindsym $modSuper+Shift+l move right
-
-bindsym $modSuper+Shift+Left move left
-bindsym $modSuper+Shift+Down move down
-bindsym $modSuper+Shift+Up move up        
-bindsym $modSuper+Shift+Right move right
+bindsym $modCap+Shift+Left move left
+bindsym $modCap+Shift+Down move down
+bindsym $modCap+Shift+Up move up        
+bindsym $modCap+Shift+Right move right
 
 #navigate workspaces next / previous
-bindsym $modAlt+Ctrl+Right move container to workspace next
-bindsym $modAlt+Ctrl+Left move container to workspace prev
-bindsym $modAlt+Ctrl+Shift+Left move workspace to output left
-bindsym $modAlt+Ctrl+Shift+Right move workspace to output right
+bindsym $modSuper+Ctrl+Right move container to workspace next
+bindsym $modSuper+Ctrl+Left move container to workspace prev
+bindsym $modSuper+Ctrl+Shift+Left move workspace to output left
+bindsym $modSuper+Ctrl+Shift+Right move workspace to output right
 
 
 # Lock screen
-bindsym $modAlt+Control+Shift+l exec --no-startup-id blurlock
+bindsym $modSuper+Control+Shift+l exec --no-startup-id blurlock
 
 # toggle tiling / floating
 bindsym Ctrl+shift+space floating toggle
@@ -138,106 +146,16 @@ bindsym control+shift+q kill
 
 # workspace back and forth (with/without active container)
 workspace_auto_back_and_forth yes
-bindsym $modAlt+b workspace back_and_forth
-bindsym $modAlt+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
-# split orientation
-#bindsym $modAlt+h split h;exec notify-send 'tile #horizontally'
-#bindsym $modAlt+v split v;exec notify-send 'tile vertically'
-
-bindsym $modSuper+t split toggle
-
-# toggle fullscreen mode for the focused container
-bindsym $modSuper+f fullscreen toggle
-# change container layout (stacked, tabbed, toggleaf split)
-bindsym $modSuper+s layout stacking
-bindsym $modSuper+w layout tabbed
-bindsym $modSuper+e layout toggle split
-
-# read 1 character and mark the current window with this character
-bindsym $modSuper+m exec i3-input -F 'mark %s' -l 1 -P 'Mark: '
-
-# read 1 character and go to the window with the character
-bindsym $modSuper+g exec i3-input -F '[con_mark="%s"] focus' -l 1 -P 'Goto: '
-
-# focus the parent container
-bindsym $modAlt+a focus parent
-
-# switch to workspace
-bindsym $modAlt+0 workspace $ws0
-bindsym $modAlt+1 workspace $ws1
-bindsym $modAlt+2 workspace $ws2
-bindsym $modAlt+3 workspace $ws3
-
-
-bindsym $modAlt+5 workspace $ws5
-bindsym $modAlt+6 workspace $ws6
-bindsym $modAlt+7 workspace $ws7
-bindsym $modAlt+8 workspace $ws8
-bindsym $modAlt+9 workspace $ws9
-
-# Move focused container to workspace
-bindsym $modAlt+Ctrl+0 move container to workspace $ws0
-bindsym $modAlt+Ctrl+1 move container to workspace $ws1
-bindsym $modAlt+Ctrl+2 move container to workspace $ws2
-bindsym $modAlt+Ctrl+3 move container to workspace $ws3
-bindsym $modAlt+Ctrl+4 move container to workspace $ws4
-bindsym $modAlt+Ctrl+5 move container to workspace $ws5
-bindsym $modAlt+Ctrl+6 move container to workspace $ws6
-bindsym $modAlt+Ctrl+7 move container to workspace $ws7
-bindsym $modAlt+Ctrl+8 move container to workspace $ws8
-bindsym $modAlt+Ctrl+9 move container to workspace $ws9
-
-bindsym $modAlt+Ctrl+Shift+0 move container to workspace $ws0; workspace $ws0
-bindsym $modAlt+Ctrl+Shift+1 move container to workspace $ws1; workspace $ws1
-bindsym $modAlt+Ctrl+Shift+2 move container to workspace $ws2; workspace $ws2
-bindsym $modAlt+Ctrl+Shift+3 move container to workspace $ws3; workspace $ws3
-bindsym $modAlt+Ctrl+Shift+4 move container to workspace $ws4; workspace $ws4
-bindsym $modAlt+Ctrl+Shift+5 move container to workspace $ws5; workspace $ws5
-bindsym $modAlt+Ctrl+Shift+6 move container to workspace $ws6; workspace $ws6
-bindsym $modAlt+Ctrl+Shift+7 move container to workspace $ws7; workspace $ws7
-bindsym $modAlt+Ctrl+Shift+8 move container to workspace $ws8; workspace $ws8   
-bindsym $modAlt+Ctrl+Shift+9 move container to workspace $ws8; workspace $ws9  
-
-# move the currently focused window to the scratchpad
-bindsym $modAlt+Control+Shift+space move scratchpad
-bindsym $modAlt+Control+Shift+k exec --no-startup-id $scripts/rofi/rofi-killprocess
-
-# Show the next scratchpad window or hide the focused scratchpad window.
-# If there are multiple scratchpad windows, this command cycles through them.
-bindsym $modAlt+Tab scratchpad show
-
-bindsym grave exec $scripts/i3/toggle-terminal-scratchpad scratchterm
-
-bindsym $modAlt+Shift+x mode "$mode_i3_exit"
-set $mode_i3_exit (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
-mode "$mode_i3_exit" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
-    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
-
-    # exit system mode: "Enter" or "Escape"
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-
-# Autostart application
 exec --no-startup-id nm-applet
 exec --no-startup-id pa-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
 exec --no-startup-id greenclip daemon
 exec --no-startup-id blueman-applet
-exec --no-startup-id urxvtd
 exec --no-startup-id xautolock -time 30 -locker blurlock
-exec --no-startup-id trilium, mark trilium, move scratchpad
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-bindsym $modAlt+m bar mode toggle
+exec --no-startup-id $scripts/xrandr-parents.sh
+
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Press $modAlt+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
@@ -293,60 +211,205 @@ mode "$mode_reload_config" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+bindsym $modAlt+Pause mode "$mode_system"
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym $modAlt+control+shift+y mode "$yay_installer_mode"
+set $yay_installer_mode System (i) install, (r) remove
+mode "$yay_installer_mode" {
+    bindsym i exec --no-startup-id ~/bin/run
+    bindsym r exec --no-startup-id i3exit logout, mode "default"
+
+    # back to normal: Enter or Escape
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+bindsym $modSuper+b workspace back_and_forth
+bindsym $modCap+Tab workspace back_and_forth
+
+bindsym $modAlt+Shift+b move container to workspace back_and_forth; workspace back_and_forth
+
+# split orientation
+#bindsym $modAlt+h split h;exec notify-send 'tile #horizontally'
+#bindsym $modAlt+v split v;exec notify-send 'tile vertically'
+
+#bindsym $modAlt+t split toggle
+
+# toggle fullscreen mode for the focused container
+bindsym $modSuper+f fullscreen toggle
+# change container layout (stacked, tabbed, toggleaf split)
+bindsym $modSuper+s layout stacking
+bindsym $modSuper+w layout tabbed
+bindsym $modSuper+e layout toggle split
+
+# read 1 character and mark the current window with this character
+bindsym $modAlt+m exec i3-input -F 'mark %s' -l 1 -P 'Mark: '
+
+# read 1 character and go to the window with the character
+bindsym $modAlt+g exec i3-input -F '[con_mark="%s"] focus' -l 1 -P 'Goto: '
+
+bind $modCap+Shift+Control+b i3-input -F 'tee -a "%s" | ' -l 1 -P 'Save Bookmark As: '
+
+# focus the parent container
+bindsym $modAlt+a focus parent
+
+
+exec_always $scripts/scratchterm
+
+bindsym grave [instance="^scratchterm$"] scratchpad show
+for_window [instance="^scratchterm$"] move scratchpad, floating enable, sticky enable, resize set 800 600
+
+# cycle through workspaces
+# bindsym --whole-window $mod+button4 workspace next_on_output
+# bindsym --whole-window $mod+button5 workspace prev_on_output
+# bindsym $mod+Tab workspace next
+# bindsym $mod+Shift+Tab workspace prev
+
+# switch to workspace
+bindsym $modAlt+0 workspace $ws0
+bindsym $modAlt+1 workspace $ws1
+bindsym $modAlt+2 workspace $ws2
+bindsym $modAlt+3 workspace $ws3
+
+
+bindsym $modAlt+5 workspace $ws5
+bindsym $modAlt+6 workspace $ws6
+bindsym $modAlt+7 workspace $ws7
+bindsym $modAlt+8 workspace $ws8
+bindsym $modAlt+9 workspace $ws9
+
+# Move focused container to workspace
+bindsym $modAlt+Ctrl+0 move container to workspace $ws0
+bindsym $modAlt+Ctrl+1 move container to workspace $ws1
+bindsym $modAlt+Ctrl+2 move container to workspace $ws2
+bindsym $modAlt+Ctrl+3 move container to workspace $ws3
+bindsym $modAlt+Ctrl+4 move container to workspace $ws4
+bindsym $modAlt+Ctrl+5 move container to workspace $ws5
+bindsym $modAlt+Ctrl+6 move container to workspace $ws6
+bindsym $modAlt+Ctrl+7 move container to workspace $ws7
+bindsym $modAlt+Ctrl+8 move container to workspace $ws8
+bindsym $modAlt+Ctrl+9 move container to workspace $ws9
+
+bindsym $modAlt+Ctrl+Shift+0 move container to workspace $ws0; workspace $ws0
+bindsym $modAlt+Ctrl+Shift+1 move container to workspace $ws1; workspace $ws1
+bindsym $modAlt+Ctrl+Shift+2 move container to workspace $ws2; workspace $ws2
+bindsym $modAlt+Ctrl+Shift+3 move container to workspace $ws3; workspace $ws3
+bindsym $modAlt+Ctrl+Shift+4 move container to workspace $ws4; workspace $ws4
+bindsym $modAlt+Ctrl+Shift+5 move container to workspace $ws5; workspace $ws5
+bindsym $modAlt+Ctrl+Shift+6 move container to workspace $ws6; workspace $ws6
+bindsym $modAlt+Ctrl+Shift+7 move container to workspace $ws7; workspace $ws7
+bindsym $modAlt+Ctrl+Shift+8 move container to workspace $ws8; workspace $ws8   
+bindsym $modAlt+Ctrl+Shift+9 move container to workspace $ws8; workspace $ws9  
+
+bindsym $modAlt+Control+Shift+space move scratchpad
+bindsym $modAlt+Control+Shift+k exec --no-startup-id $scripts/rofi/rofi-killprocess
+bindsym $modAlt+Control+Shift+h exec --no-startup-id i3-scratchpad -d200x200 -abr -p0,-50 -wtuo +transparent -mt htop
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+bindsym $modAlt+Tab scratchpad show
+bindsym $modCap+grave scratchpad show
+
+#bindsym grave exec ~/bin/runorfocus "kitty" urxvtc
+#bindsym grave exec $scripts/scratchterm kittyterm
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
-bindsym $modCap+1 exec --no-startup-id code ~/.config/i3/config; [class="Code"] focus
-bindsym $modCap+2 exec --no-startup-id code ~/.config/polybar/config; [class="Code"] focus
-bindsym $modCap+3 exec --no-startup-id code ~/.config/rofi; [class="Code"] focus
-bindsym $modCap+0 exec --no-startup-id code ~/local/development/linux/scripts; [class="Code"] focus
-
 # run rofi
 bindsym $modAlt+space exec --no-startup-id rofi -modi combi -show combi
-bindsym $modAlt+w exec $scripts/rofi/rofi-web-search
+bindsym $modAlt+w exec --no-startup-id $scripts/rofi/rofi-web-search
 
 bindsym $modAlt+F12 exec --no-startup-id code $scripts/workspace.code-workspace
 
-bindsym $modAlt+Control+m exec --no-startup-id $scripts/run-shell-command -h -n "fzf-mansearch" $scripts/fzf/fzf-mansearch
-bindsym $modAlt+Control+Shift+w exec --no-startup-id ~/bin/window-inspector
+bindsym $modAlt+Control+m exec --no-startup-id $scripts/run-shell-command $scripts/fzf/fzf-mansearch
+bindsym $modAlt+control+shift+p exec --no-startup-id $scripts/rofi/rofi/passmenu
 
-bindsym $modCap+f exec $scripts/i3/switch-to-window "firefox" firefox
+bindsym $modCap+f exec ~/bin/runorfocus "firefox" firefox
 bindsym $modCap+shift+f exec firefox --private-window
-bindsym $modCap+g exec $scripts/i3/switch-to-window "chromium" chromium
-bindsym $modCap+v exec $scripts/i3/switch-to-window "code" code
-bindsym $modCap+c exec $scripts/i3/switch-to-window "code" code
-bindsym $modCap+e exec $scripts/i3/switch-to-window "thunderbird" thunderbird
-bindsym $modCap+p exec $scripts/i3/switch-to-window  "pcmanfm" pcmanfm
-bindsym $modCap+s exec $scripts/i3/switch-to-window "slack" slack
-bindsym $modCap+u exec $scripts/i3/switch-to-window "pavucontrol" pavucontrol
-bindsym $modCap+Return exec $scripts/i3/switch-to-window "urxvt" urxvtc -e 'tmux new-session -A -d dummy'
-bindsym $modCap+Control+Shift+w exec --no-startup-id $scripts/run-shell-command -h -n window_criteria "$scripts/i3-get-window-criteria"
+bindsym $modCap+g exec ~/bin/runorfocus "chromium" chromium
+bindsym $modCap+v exec ~/bin/runorfocus "code" code
+bindsym $modCap+c exec ~/bin/runorfocus "code" code
+bindsym $modCap+r exec i3-scratchpad -u ranger
+bindsym $modCap+e exec ~/bin/runorfocus "thunderbird" thunderbird       
+bindsym $modCap+s exec ~/bin/runorfocus "Slack" slackR
+bindsym $modCap+u exec ~/bin/runorfocus "pavucontrol" pavucontrol
+bindsym $modCap+k exec ~/bin/runorfocus "kitty" kitty && i3-msg "mark kitty"
+bindsym $modCap+p exec ~/bin/runorfocus "Pcmanfm" pcmanfm
+bindsym $modCap+1 exec ~/bin/runorfocus "firefox" firefox
+bindsym $modCap+shift+1 exec ~/bin/runorfocus "chromium" chromium
+bindsym $modCap+2 exec ~/bin/runorfocus "code" code       
+bindsym $modCap+3 exec ~/bin/runorfocus "Pcmanfm" pcmanfm
+bindsym $modCap+4 exec ~/bin/runorfocus "Thunderbird" thunderbird
+bindsym $modCap+5 exec ~/bin/runorfocus "Slack" slack
+bindsym $modCap+0 exec ~/bin/runorfocus "trilium notes" trilium
 
-bindsym $modSuper+control+shift+h resize shrink width 10rpx or 10ppt
-bindsym $modSuper+control+shift+k resize grow height 10px or 10ppt
-bindsym $modSuper+control+shift+j resize shrink height 10px or 10ppt
-bindsym $modSuper+control+shift+l resize grow width 10px or 10ppt
+bindsym $modAlt+p exec rofi-pass
 
-bindsym $modSuper+control+shift+Right resize shrink width 10px or 10ppt
-bindsym $modSuper+control+shift+Down resize grow height 10px or 10ppt1
-bindsym $modSuper+control+shift+Up resize shrink height 10px or 10ppt
-bindsym $modSuper+control+shift+Left resize grow width 10px or 10ppt
+bindsym $modCap+shift+i exec code ~/.config/i3
+bindsym $modCap+shift+p exec code ~/.config/polybar
+bindsym $modCap+shift+s exec code /home/sd/local/development/web/trellis/shaundavis.xyz
+bindsym $modCap+shift+r exec code /home/sd/local/development/web/curiousm/Rubicon-2020
+bindsym $modCap+shift+t exec code /home/sd/local/development/web/curiousm/StefanieSomers2022
+#bindsym $modCap+shift+s exec code $( find /home/sd/local/development/web/curiousm/ -type d | awk -F ' ' '{print $1}' | rofi -dmenu -p "Work Folder" ) )
 
-bindsym $modSuper+control+shift+minus resize shrink width 10px or 10ppt, resize shrink height 10px or 10ppt
-bindsym $modSuper+control+shift+equal resize grow width 10px or 10ppt, resize grow height 10px or 10ppt
+bindsym $modCap+$modAlt+shift+h resize shrink width 10rpx or 10ppt
+bindsym $modCap+$modAlt+shift+k resize grow height 10px or 10ppt
+bindsym $modCap+$modAlt+shift+j resize shrink height 10px or 10ppt
+bindsym $modCap+$modAlt+shift+l resize grow width 10px or 10ppt
 
-bindsym $modCap+space exec --no-startup-id rofi -show combi --run-shell-comand '{terminal} -e zsh -ic "eval {cmd} && read"' 
+bindsym $modCap+$modAlt+shift+Right resize shrink width 10px or 10ppt
+bindsym $modCap+$modAlt+shift+Down resize grow height 10px or 10ppt
+bindsym $modCap+$modAlt+shift+Up resize shrink height 10px or 10ppt
+bindsym $modCap+$modAlt+shift+Left resize grow width 10px or 10ppt
+
+bindsym $modCap+$modAlt+shift+minus resize shrink width 10px or 10ppt, resize shrink height 10px or 10ppt
+bindsym $modCap+$modAlt+shift+equal resize grow width 10px or 10ppt, resize grow height 10px or 10ppt
 
 
-bindsym $modAlt+y exec --no-startup-id $scripts/run-shell-command -h $scripts/fzf/fzf-yay-install
-bindsym $modAlt+f exec --no-startup-id $scripts/rofi/rofi-run-modi Find $scripts/rofi/rofi-finder
+bindsym $modAlt+y exec --no-startup-id ~/bin/ytdler
+
+bindsym $modAlt+o exec --no-startup-id ~/bin/rofi-finder
+bindsym $modCap+space exec --no-startup-id ~/bin/rofi-finder
 bindsym $modAlt+h exec --no-startup-id $scripts/rofi/rofi-run-modi History $scripts/rofi/rofi-firefox-history
-bindsym $modAlt+w exec --no-startup-id $scripts/rofi/rofi-finder rofi show run -run-shell-command 'i3-msg exec {cmd}'
+bindsym $modAlt+b exec --no-startup-id ~/bin/buku_run
+#bindsym $modAlt+w exec --no-startup-id $scripts/rofi/rofi-finder rofi show run -run-shell-command 'i3-msg exec {cmd}'
 bindsym $modAlt+k exec --no-startup-id $scripts/rofi/rofi-run-modi Clipboard greenclip print
-bindsym $modAlt+d exec --no-startup-id $scripts/run-shell-command -h -n "popup" $scripts/fzf/fzf-dictionary
 bindsym $modAlt+e exec --no-startup-id rofi -show run -run-shell-command '{terminal} -e zsh -ic "eval {cmd} && read"'
-bindsym $modAlt+r exec --no-startup-id $scripts/rofi/rofi-run-modi Recent $scripts/rofi/rofi-fasd
-bindsym $modAlt+s exec --no-startup-id rofi -show ssh
+bindsym $modAlt+s exec --no-startup-id $scripts/rofi/suggestive-search/suggest google
+bindsym $modAlt+f exec --no-startup-id $scripts/rofi/rofi-run-modi "" $scripts/rofi/rofi-fasd
+bindsym $modAlt+d exec --no-startup-id $scripts/rofi/rofi-run-modi "" $scripts/rofi/rofi-docker
+#bindsym $modAlt+w exec --no-startup-id $scripts/rofi/rofi-finder rofi show run -run-shell-command 'i3-msg exec {cmd}'
 
-bindsym Print exec --no-startup-id scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+bindsym Print exec --no-startup-id "$($TERMINAL --name kittymsg -e zsh -ic 'eval ~/bin/screenshot')"
+bindsym Control+Print exec --no-startup-id $( $TERMINAL -e zsh -ic '~/bin/screenshot -s' )
+#bindsym Print exec --no-startup-id scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+
+bindsym Control+Shift+z exec --no-startup-id ~/bin/run-shell-command ~/fzf-file-previewer
+
+bindsym $modCap+shift+F10 exec --no-startup-id code $SCRIPTS_DIR
+
+bindsym $modCap+shift+F9 exec --no-startup-id code ~/.config/i3/config
+
+bindsym $modCap+mod2+KP_1 exec code /home/sd/local/development/web/curiousm/StefanieSomers2022
+bindsym $modCap+KP_End exec code /home/sd/local/development/web/curiousm/StefanieSomers2022
+
+bindsym $modAlt+KP_0 exec firefox --new-tab "https://curiousminds.zendesk.com/agent/dashboard"
+bindsym $modAlt+KP_Insert exec firefox --new-tab "https://curiousminds.zendesk.com/agent/dashboard"
+
+bindsym $modAlt+KP_1 exec firefox --new-tab "https://my.wpengine.com"
+bindsym $modAlt+KP_Home exec firefox --new-tab "https://my.wpengine.com"

@@ -1,0 +1,10 @@
+# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+
+# Setq   mod key (Mod1=<Alt>, Mod4=<Super>)
+        set $modAlt Mod1
+        set $modCap Mod3
+        set $modSuper Mod4
+
+        set $scripts /home/sd/local/development/scripts
+
+        include ~/.config/i3/config.d/*.conf

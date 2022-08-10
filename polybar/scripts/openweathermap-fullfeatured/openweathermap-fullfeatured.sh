@@ -51,11 +51,11 @@ get_duration() {
     esac
 
 }
-
-KEY=""
-CITY=""
-UNITS="metric"
+KEY="9cab4dec3ca795c424a0bd287ea3c544"
+CITY="Rochester"
+UNITS="imperial"
 SYMBOL="°"
+
 
 API="https://api.openweathermap.org/data/2.5"
 
