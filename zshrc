@@ -7,6 +7,8 @@ export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
 export ZSH_CUSTOM=~/.oh-my-zsh/plugins
 
 export LOCAL_DIR=$HOME/local
+export TEMPDIR=$LOCAL_DIR/tmp
+export BIN_DIR=$HOME/bin
 export SCRIPTS_DIR=$LOCAL_DIR/development/scripts
 export WEB_DIR=$LOCAL_DIR/development/web
 
@@ -23,10 +25,6 @@ EDITOR=/usr/bin/vim
 plugins=(git brew zsh-syntax-highlighting z fasd)
 fpath=($ZSH/custom/plugins/zsh-completions/src $fpath)
 
-source $ZSH/oh-my-zsh.sh
-source $HOME/.aliases
-source $HOME/.functions
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -34,7 +32,7 @@ source $HOME/.functions
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-export TERMINAL=/usr/bin/urxvt
+export TERMINAL=/usr/bin/alacritty
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -49,6 +47,7 @@ export ARCHFLAGS="-arch x86_64"
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
 
+source $ZSH/oh-my-zsh.sh
 source "$HOME/.aliases"
 source "$HOME/.functions"
 

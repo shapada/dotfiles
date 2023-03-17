@@ -3,9 +3,6 @@
 ! or alias merge
 ! ------------------------------------------------------------------------------
 
-! Xorg issue nov 2021 - use and change if needed
-Xft.dpi: 96 
-
 ! general settings
 URxvt.saveLines:        50000
     
@@ -95,10 +92,10 @@ URxvt.background:   [80]#222222
 
 ! fonts
 URxvt.letterSpace: 	    		-1
-URxvt.font:                 	xft:Cascadia Mono:light:size=10
-URxvt.italicFont:           	xft:Cascadia Mono:italic:size=10
-URxvt.boldFont:             	xft:Cascadia Mono:bold:size=10
-URxvt.boldItalicFont:     		xft:Cascadia Mono:regular:size=10
+URxvt.font:                 	xft:Terminus Mono:light:size=12
+URxvt.italicFont:           	xft:Terminus Mono:italic:size=12
+URxvt.boldFont:             	xft:Terminus Mono:bold:size=12
+URxvt.boldItalicFont:     		xft:Terminus Mono:regular:size=12
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
