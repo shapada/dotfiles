@@ -91,11 +91,11 @@ URxvt.background:   [80]#222222
 !!! copy/paste colorcodes in
 
 ! fonts
-URxvt.letterSpace: 	    		-1
-URxvt.font:                 	xft:Terminus Mono:light:size=12
-URxvt.italicFont:           	xft:Terminus Mono:italic:size=12
-URxvt.boldFont:             	xft:Terminus Mono:bold:size=12
-URxvt.boldItalicFont:     		xft:Terminus Mono:regular:size=12
+URxvt.letterSpace: 	    		-2
+URxvt.font:                 	xft:Droid Sans Mono:light:size=12
+URxvt.italicFont:           	xft:Droid Sans Mono:italic:size=12
+URxvt.boldFont:             	xft:Droid Sans Mono:bold:size=12
+URxvt.boldItalicFont:     		xft:Droid Sans Mono:regular:size=12
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
