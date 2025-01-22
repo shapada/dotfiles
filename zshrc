@@ -1,38 +1,29 @@
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH="$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH"
 
-#fzf 
-export ZSH=$HOME/.oh-my-zsh
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
-export ZSH_CUSTOM=~/.oh-my-zsh/plugins
+export ZSH="$HOME/.oh-my-zsh"
 
-export LOCAL_DIR="$HOME/local"
-export TEMPDIR=$LOCAL_DIR/tmp
-export BIN_DIR=$HOME/bin
-export SCRIPTS_DIR=$LOCAL_DIR/development/scripts
-export WEB_DIR=$LOCAL_DIR/development/web
+ZSH_THEME="agnoster"
+ZSH_CUSTOM=~"/.oh-my-zsh/custom/plugins"
 
-ZSH_THEME="bira"
-TERM=xterm-256color
-TERMINAL=/usr/bin/urxvt
-EDITOR=/usr/bin/vim
 # Would you like to use another custom folder than $ZSH/custom?
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew zsh-syntax-highlighting z fasd)
+plugins=(git zsh-syntax-highlighting z fasd)
 fpath=($ZSH/custom/plugins/zsh-completions/src $fpath)
 
 # User configuration
 
-# export MANPATH="/usr/local/man:$MANPATH"
+#fzf 
+export FZF_DEFAULT_COMMAND="fd --type f --hidden --follow --exclude .git"
 
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-export TERMINAL=/usr/bin/alacritty
+export TERM='alacritty'
+export TERMINAL='alacritty'
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -45,25 +36,46 @@ fi
 export ARCHFLAGS="-arch x86_64"
 
 # ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
+export SSH_KEY_PATH="~/.ssh/id_rsa"
 
-source "$ZSH/oh-my-zsh.sh"
-source "$ZSH/oh-my-zsh.sh"
-source "$HOME/.functions"
-source "$HOME/.screenlayout/default.sh"
+# apps
+export OPENAI_API_KEY="sk-89mCVZu-UQy6lHS015Dap74XU1U5cYZMCBzkI5_dRxT3BlbkFJGjQlWSqtrNqlnoPePCdBrl2i-e6zRS5Gj7sLa4seMA"
+
+source $ZSH/oh-my-zsh.sh
+source $HOME/.functions
+source $HOME/.aliases
+source $HOME/.screenlayout/default.sh
 
 
 eval "$(fasd --init posix-alias zsh-hook zsfad-wcomp-install zsh-wcomp zsh-ccomp-install zsh-ccomp )"
 
-source /usr/share/nvm/init-nvm.sh
+[[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
 
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/trellis trellis
+# Load Angular CLI autocompletion.
+#source <(ng completion script)
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# HSTR configuration - add this to ~/.zshrc
-alias hh=hstr                    # hh to be alias for hstr
-setopt histignorespace           # skip cmds w/ leading space from history
-export HSTR_CONFIG=hicolor       # get more colors
-bindkey -s "\C-r" "\C-a hstr -- \C-j"     # bind hstr to Ctrl-r (for Vi mode check doc)
+env=~/.ssh/agent.env
 
+agent_load_env () { test -f "$env" && . "$env" >| /dev/null ; }
+
+agent_start () {
+    (umask 077; ssh-agent >| "$env")
+    . "$env" >| /dev/null ; }
+
+agent_load_env
+
+# agent_run_state: 0=agent running w/ key; 1=agent w/o key; 2=agent not running
+agent_run_state=$(ssh-add -l >| /dev/null 2>&1; echo $?)
+
+if [ ! "$SSH_AUTH_SOCK" ] || [ $agent_run_state = 2 ]; then
+    agent_start
+    ssh-add
+elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
+    ssh-add
+fi
+
+unset env

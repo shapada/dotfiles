@@ -3,9 +3,12 @@
 ! or alias merge
 ! ------------------------------------------------------------------------------
 
+! Xorg issue nov 2021 - use and change if needed
+Xft.dpi: 96 
+
 ! general settings
 URxvt.saveLines:        50000
-    
+
 URxvt.termName:         xterm-256color
 URxvt.urgentOnBell:     false
 URxvt.visualBell:       false
@@ -13,12 +16,13 @@ URxvt.iso14755:         false
 URxvt.iso14755_52:      false
 URxvt.meta8:            false
 URxvt.metaSendsEscape:  true
+URxvt.iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
 URxvt.urlLauncher:      firefox
 URxvt.underlineURLs:    true
 URxvt.urlButton:        1
 
 ! appearance
-URxvt.geometry: 		80x40
+URxvt.geometry: 		1000x30
 URxvt.depth:             32
 !URxvt.transparent:      true
 URxvt.shading:           80
@@ -91,11 +95,12 @@ URxvt.background:   [80]#222222
 !!! copy/paste colorcodes in
 
 ! fonts
-URxvt.letterSpace: 	    		-2
-URxvt.font:                 	xft:Droid Sans Mono:light:size=12
-URxvt.italicFont:           	xft:Droid Sans Mono:italic:size=12
-URxvt.boldFont:             	xft:Droid Sans Mono:bold:size=12
-URxvt.boldItalicFont:     		xft:Droid Sans Mono:regular:size=12
+URxvt.letterSpace: 	    		  -1
+URxvt.font:                 	xft:Cascadia Mono:regular:size=12
+URxvt.imFont:               	xft:Cascadia Mono:regular:size=12
+URxvt.italicFont:           	xft:Cascadia Mono:italic:size=12
+URxvt.boldFont:             	xft:Cascadia  Mono:bold:size=12
+URxvt.boldItalicFont:     		xft:Cascadia Mono:regular:size=12
 ! run :.!fc-list | grep <font-name>
 
 ! perl extensions
