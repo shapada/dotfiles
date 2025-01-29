@@ -112,3 +112,11 @@ alias dcdown="docker-compose down"
 alias pacup="sudo pacman -Syyu"
 alias yup="yay -Syu"
 alias pacrm="sudo pacman -Rns"
+<<<<<<< HEAD
+=======
+alias gcl="git clone"
+alias gcm="git commit -m"
+alias gpu="git push"
+alias gpl="git pull"
+
+>>>>>>> refs/remotes/origin/main
