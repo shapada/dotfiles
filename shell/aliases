@@ -100,6 +100,7 @@ alias ybuild="yarn build"
 alias ybld="yarn build"
 alias svim="sudo vim"
 alias cddock="cd /home/sd/local/docker/"
+alias dcd="docker-compose up --build -d --no-deps"
 alias dcupd="docker-compose up -d"
 alias svhost="sudo vim /etc/hosts"
 alias svhosts="sudo vim /etc/hosts"
@@ -112,11 +113,8 @@ alias dcdown="docker-compose down"
 alias pacup="sudo pacman -Syyu"
 alias yup="yay -Syu"
 alias pacrm="sudo pacman -Rns"
-<<<<<<< HEAD
-=======
 alias gcl="git clone"
 alias gcm="git commit -m"
 alias gpu="git push"
 alias gpl="git pull"
 
->>>>>>> refs/remotes/origin/main
