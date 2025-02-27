@@ -124,5 +124,10 @@ alias sctl="sudo systemctl"
 alias sutrae="sudo -u traefik -s"
 alias dcdu="docker compose down && docker compose up -d"
 alias dkps="docker ps"
+<<<<<<< HEAD
 alias gaa="git add ."
 alias gcm="git commit -m"
+=======
+alias dockps="docker ps"
+alias gst="git status"
+>>>>>>> 9459458 (Cleaned up zshrc file)
